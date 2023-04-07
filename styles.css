@@ -204,7 +204,7 @@
 .team__card h1{
     position: absolute;
     bottom: 30px;
-    color: var(--black);
+    color: var(--white);
     left: 25px;
     font-size: clamp(1rem, 2vw, 1.5rem);
     line-height: 1.4;
