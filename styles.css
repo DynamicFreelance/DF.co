@@ -38,7 +38,7 @@
 /* Hero section */
 .hero{
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
-    url('./images/DF.png');
+    url('./images/DF2.png');
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -256,8 +256,8 @@
 /* Contact page */
 .email{
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
-    url('./images/DF.png') no-repeat center;
-    height: 80vh;
+    url('./images/DF2.png') no-repeat center;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     padding: 5rem calc((100vw - 1300px) / 2);
