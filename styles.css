@@ -90,6 +90,7 @@
 .services__img{
     width: 90%;
     height: 90%;
+    padding: 1rem 1rem;
 }
 .topline{
     color: var(--blue);
