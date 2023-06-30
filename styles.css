@@ -172,7 +172,7 @@
 /*thanks section*/
 .thanks__heading{
     margin-bottom: 1rem;
-    font-size: clamp(2rem, 5vw, 3rem);
+    font-size: 2rem;
     padding: 3rem 2rem;
 }
 /*About us section*/
