@@ -172,12 +172,22 @@
 /*thanks section*/
 .thanks__heading h1{
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 3rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+.thanks__heading p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    color: var(--blue);
 }
 /*About us section*/
 .team{
