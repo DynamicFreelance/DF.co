@@ -217,7 +217,7 @@
 .team__card p{
     position: absolute;
     bottom: 30px;
-    color: var(--black);
+    color: var(--blue);
     left: 25px;
     font-size: 3rem;
 }
