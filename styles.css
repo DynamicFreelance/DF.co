@@ -2,6 +2,7 @@
     --black:#000000;
     --white:#fff;
     --blue:rgb(0, 238, 255);
+    --brown:rgb(166, 123, 91);
 }
 *{
     box-sizing: border-box;
@@ -217,7 +218,7 @@
 .team__card p{
     position: absolute;
     bottom: 30px;
-    color: var(--blue);
+    color: var(--brown);
     left: 25px;
     font-size: 3rem;
 }
