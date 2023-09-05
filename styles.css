@@ -219,14 +219,14 @@
 .team__card p{
     position: absolute;
     bottom: 30px;
-    color: var(--brown);
+    color: var(--grey);
     left: 25px;
     font-size: 3rem;
 }
 .team__card a{
     position: absolute;
     bottom: 30px;
-    color: var(--grey);
+    color: var(--brown);
     left: 25px;
     font-size: 3rem;
 }
