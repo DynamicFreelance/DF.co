@@ -2,7 +2,7 @@
     --black:#000000;
     --white:#fff;
     --blue:rgb(0, 238, 255);
-    --brown:rgb(166, 123, 91);
+    --brown:rgb(128, 128, 128);
 }
 *{
     box-sizing: border-box;
