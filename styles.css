@@ -11,7 +11,7 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
-@keyframes s{
+@keyframes Slide{
     from {
         margin-top: 100%;
     }
@@ -58,8 +58,8 @@
     align-items: center;
 }
 .hero__content{
-    animation-duration: 1s;
-    animation-name: S;
+    animation-duration: 3s;
+    animation-name: Slide;
     color: var(--white);
     padding: 3rem 1rem;
     line-height: 1;
