@@ -427,8 +427,9 @@ span{
 }
 .reveal{
     position: relative;
-    transform: translateY(150px);
+    transform: translateY(200px);
     opacity: 0;
+    transition: all 2s ease;
 }
 .reveal.active{
     position: relative;
