@@ -425,3 +425,13 @@ span{
         padding: 1rem;
     }
 }
+.reveal{
+    position: relative;
+    trnasform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active{
+    trnasform: translateY(0px);
+    opacity: 1;
+}
