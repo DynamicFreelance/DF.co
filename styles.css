@@ -431,5 +431,4 @@ span{
 .reveal.active{
     animation-duration: 1s;
     animation-name: Slide;
-    opacity: 1;
 }
