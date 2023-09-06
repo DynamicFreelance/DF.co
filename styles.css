@@ -427,7 +427,6 @@ span{
 }
 .reveal{
     opacity: 0;
-    transition: all 2s ease;
 }
 .reveal.active{
     animation-duration: 1s;
