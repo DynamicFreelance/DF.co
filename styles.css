@@ -12,10 +12,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html{
-    scroll-behaviour: smooth;
-    data-aos="fade-up"
-}
+
 
 /* navbar section */
 .navbar{
