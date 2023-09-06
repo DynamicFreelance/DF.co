@@ -427,11 +427,11 @@ span{
 }
 .reveal{
     position: relative;
-    trnasform: translateY(150px);
+    trnasform: translateY(150rem);
     opacity: 0;
     transition: all 2s ease;
 }
 .reveal.active{
-    trnasform: translateY(0px);
+    trnasform: translateY(0rem);
     opacity: 1;
 }
