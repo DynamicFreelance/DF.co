@@ -426,12 +426,11 @@ span{
     }
 }
 .reveal{
-    position: relative;
-    trnasform: translateY(150rem);
     opacity: 0;
     transition: all 2s ease;
 }
 .reveal.active{
-    trnasform: translateY(0rem);
+    animation-duration: 1s;
+    animation-name: Slide;
     opacity: 1;
 }
