@@ -14,9 +14,11 @@
 @keyframes Slide{
     from {
         margin-top: 100%;
+        opacity: 0;
     }
     to{
         margin-top: 0%;
+        opacity: 1;
     }
 }
 
@@ -58,7 +60,7 @@
     align-items: center;
 }
 .hero__content{
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-name: Slide;
     color: var(--white);
     padding: 3rem 1rem;
