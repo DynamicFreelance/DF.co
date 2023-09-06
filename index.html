@@ -34,7 +34,7 @@
     </div>
     <!--Services Section-->
     <div id="services" class="services">
-        <div class="services__Container">
+        <div class="services__Container reveal">
             <div>
                 <p class="topline">Features</p>
                 <h1 class="services__heading">What We Offer</h1>
@@ -56,7 +56,7 @@
         </div>
     </div>
     <!--Marketing Teir Section-->
-    <div id="marketing" class="Marketing">
+    <div id="marketing" class="Marketing reveal">
         <h1>View our marketing plans</h1>
         <p class="MarketingTeir__desc">For pricing and more details please contact us through our Contacts page</p>
     <div class="Marketing__wrapper">
@@ -114,7 +114,7 @@
     </div>
     <!-- About Us Section-->
     <div id="about us" class="team">
-        <div class="team__wrapper">
+        <div class="team__wrapper reveal">
             <div class="team__text">
                 <p class="topline">About Us</p>
                 <h1>Dynamic Technologies</h1>
@@ -150,7 +150,7 @@
     </div>
     <!--Contacts Section-->
     <div id="contacts" class="email">
-        <div class="email__content">
+        <div class="email__content reveal">
             <h1>Contact Us Today</h1>
             <p>Sign up now for a free consultation about any of our offered services</p>
             <div class="form__wrap">
@@ -165,7 +165,7 @@
         </div>
     </div>
     <!--Footer section-->
-    <div id="footer" class="footer">
+    <div id="footer" class="footer reveal">
         <div class="footer__wrapper">
             <div class="footer__desc">
                 <h1>DYNAMIC Technologies</h1>
@@ -192,6 +192,27 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
     <script src="app.js"></script>
 </body>
 </html>
