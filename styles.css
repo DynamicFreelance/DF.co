@@ -12,7 +12,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+html{
+    animation-duration: 1s;
+    animation-name: S;
+}
+@keyframes s{
+    from {
+        margin-top: 100%;
+    }
+    to{
+        margin-top: 0%;
+    }
+}
 
 /* navbar section */
 .navbar{
