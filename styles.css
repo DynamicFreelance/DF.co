@@ -425,9 +425,6 @@ span{
         padding: 1rem;
     }
 }
-.reveal{
-    opacity: 0;
-}
 .reveal.active{
     animation-duration: 1s;
     animation-name: Slide;
