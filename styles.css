@@ -425,7 +425,13 @@ span{
         padding: 1rem;
     }
 }
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+}
 .reveal.active{
-    animation-duration: 1s;
-    animation-name: Slide;
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
 }
