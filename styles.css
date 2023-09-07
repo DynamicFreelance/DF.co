@@ -60,7 +60,7 @@
     align-items: center;
 }
 .hero__content{
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: Slide;
     color: var(--white);
     padding: 3rem 1rem;
@@ -94,7 +94,7 @@
 
 /* Services section */
 .services{
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: Slide;
     padding: 8rem calc((100vw - 1800px)/2);
 }
@@ -206,7 +206,7 @@
 }
 /*About us section*/
 .team{
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: Slide;
     padding: 8rem calc((100vw - 1100px)/2);
 }
@@ -312,7 +312,7 @@
     align-items: center;
 }
 .email__content{
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: Slide;
     display: flex;
     flex-direction: column;
