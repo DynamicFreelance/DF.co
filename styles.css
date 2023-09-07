@@ -94,6 +94,8 @@
 
 /* Services section */
 .services{
+    animation-duration: 1s;
+    animation-name: Slide;
     padding: 8rem calc((100vw - 1800px)/2);
 }
 .services__Container{
@@ -204,6 +206,8 @@
 }
 /*About us section*/
 .team{
+    animation-duration: 1s;
+    animation-name: Slide;
     padding: 8rem calc((100vw - 1100px)/2);
 }
 .team__wrapper{
@@ -296,6 +300,8 @@
 
 /* Contact page */
 .email{
+    animation-duration: 1s;
+    animation-name: Slide;
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
     url('./images/DF3.png') no-repeat center;
     height: 100vh;
