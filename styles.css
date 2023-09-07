@@ -300,8 +300,6 @@
 
 /* Contact page */
 .email{
-    animation-duration: 1s;
-    animation-name: Slide;
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
     url('./images/DF3.png') no-repeat center;
     height: 100vh;
@@ -314,6 +312,8 @@
     align-items: center;
 }
 .email__content{
+    animation-duration: 1s;
+    animation-name: Slide;
     display: flex;
     flex-direction: column;
     align-items: center;
