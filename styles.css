@@ -111,10 +111,12 @@
     padding: 1rem;
 }
 .services__img{
-    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
     height: 80%;
     margin-top: 3rem;
-    margin-left: -2rem;
     object-fit: cover;
 }
 .topline{
