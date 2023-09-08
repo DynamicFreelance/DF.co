@@ -11,7 +11,7 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
-html,body{
+html{
     overflow-x: hidden;
 }
 @keyframes Slide{
