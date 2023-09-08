@@ -142,7 +142,7 @@
 .Marketing{
     background: var(--black);
     color: var(--white);
-    padding: 6rem calc((100vw - 1700px)/2);
+    padding: 2rem calc((100vw - 1700px)/2);
     text-align: center;
 }
 .Marketing h1{
