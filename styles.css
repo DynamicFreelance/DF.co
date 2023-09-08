@@ -111,7 +111,7 @@
     padding: 1rem;
 }
 .services__img{
-    width: 100%;
+    width: 100vw;
     height: 100%;
     margin-top: 3rem;
 }
