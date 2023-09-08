@@ -57,8 +57,7 @@ html,body
 
 /* Hero section */
 .Hero__slider{
-    display: grid;
-    grid-template-columns: 100%;
+    display: flex;
     overflow-x: scroll;
 }
 .Sales{
