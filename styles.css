@@ -30,9 +30,6 @@ html,body
     overflow-x: hidden;
     overflow-y: scroll;
 }
-div::-webkit-scrollbar{
-    display: none;
-}
 /* navbar section */
 .navbar{
     background: var(--black);
