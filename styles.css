@@ -12,8 +12,8 @@
     font-family: 'Poppins', sans-serif;
 }
 html,body{
-    margin:0px;
-    padding:0px;
+    width:100vw;
+    height:100vh;
     overflow-x:hidden;
 }
 @keyframes Slide{
@@ -23,14 +23,6 @@ html,body{
     }
     to{
         margin-top: 0%;
-        opacity: 1;
-    }
-}
-@keyframes Fade{
-    from {
-        opacity: 0;
-    }
-    to{
         opacity: 1;
     }
 }
