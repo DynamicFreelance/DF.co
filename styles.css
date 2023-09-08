@@ -56,6 +56,20 @@ html,body
 }
 
 /* Hero section */
+.Hero__slider{
+overflow-x: scroll;
+}
+.Sales{
+    background: linear-gradient(to right, rgba(255,165,0, 0.6), rgba(0,0,0, 0.3)),
+    url('./images/DF3.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 .hero{
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
     url('./images/DF3.png');
