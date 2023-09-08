@@ -114,6 +114,7 @@
     width: 80%;
     height: 80%;
     margin-top: 3rem;
+    margin-left: -2rem;
     object-fit: cover;
 }
 .topline{
