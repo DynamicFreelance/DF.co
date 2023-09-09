@@ -59,6 +59,8 @@ html,body
 .Hero__slider{
     display: grid;
     grid-template-columns: 100% 100%;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
     overflow-x: auto;
 }
 .Sales{
