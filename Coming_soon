@@ -1,1 +1,68 @@
-h
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Technologies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="/" class="navbar__logo">D-Tech</a>
+        <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="/Aboutus.html" class="navbar__link">About us</a>
+            <a href="/Services.html" class="navbar__link">Services</a>
+            <a href="/Contacts.html" class="navbar__link">Contacts</a>
+        </div>
+    </nav>
+    <!--Services Section-->
+        <div class="thanks__heading">
+                <p>Check back soon!</p>
+                <h1>Coming Soon...</h1>
+        </div>
+                <div>
+                <img src="./images/DT.gif" alt="DF" class="services__img" />
+                </div>
+        <!--Footer section-->
+        <div class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__desc">
+                    <h1>DYNAMIC Technologies</h1>
+                    <p>Online development platform located in Tottenham Ontario Canada.</p>
+                    <p id="phone">289-383-4552</p>
+                    <p id="email">dynamicfreelance.co@gmail.com</p>
+                </div>
+                <div class="footer__links">
+                    <h2 class="footer__title">Contact Us</h2>
+                    <a href="/Contacts.html" class="footer__link">Contact</a>
+                    <a href="/Contacts.html" class="footer__link">Support</a>
+                </div>
+            </div>
+            <div class="footer__wrapper">
+                <div class="footer__links">
+                    <h2 class="footer__title">Social Media</h2>
+                    <a href="/Contacts.html" class="footer__link">Instagram</a>
+                    <a href="/Contacts.html" class="footer__link">Youtube</a>
+                </div>
+                <div class="footer__links">
+                    <h2 class="footer__title">Services</h2>
+                    <a href="/Services.html" class="footer__link">Pricing</a>
+                    <a href="/Services.html" class="footer__link">Features</a>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
