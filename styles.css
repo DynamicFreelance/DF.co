@@ -63,7 +63,7 @@ html,body
 }
 .Sales{
     background: linear-gradient(to right, rgba(255,165,0, 0.6), rgba(0,0,0, 0.3)),
-    url('./images/DF3.png');
+    url('./images/Sale.png');
     height: 100vh;
     background-position: center;
     background-size: cover;
