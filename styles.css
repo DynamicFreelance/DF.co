@@ -58,7 +58,7 @@ html,body
 /* Hero section */
 .Hero__slider{
     display: grid;
-    grid-template-columns: 100% 100%;
+    grid-template-columns: 100% 100% 100%;
     scroll-snap-type: x mandatory;
     overflow-x: auto;
 }
@@ -76,6 +76,18 @@ html,body
 }
 .hero{
     background: linear-gradient(to right, rgba(0,0,0, 0.7), rgba(0,0,0, 0.2)),
+    url('./images/DF3.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.Games{
+    background: linear-gradient(to right, rgba(128,0,128, 0.7), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 100vh;
     background-position: center;
