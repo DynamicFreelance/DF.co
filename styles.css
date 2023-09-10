@@ -53,11 +53,15 @@ html,body
 .navbar__link:hover{
     color: var(--white);
 }
+.dropdownmenu{
+    display: none;
+}
 @media screen and (max-width: 768px){
     .navbar__menu{
         display: none;
+    }
     .dropdownmenu{
-
+        display: block;
     }
     .dropdownmenu ul, .dropdownmenu li{
         margin: 0;
