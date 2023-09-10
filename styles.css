@@ -53,9 +53,25 @@ html,body
 .navbar__link:hover{
     color: var(--white);
 }
+.dropdownmenu{
+    displau: none;
+}
 @media screen and (max-width: 768px){
-    .navbar__link a{
-        font-size: 0.7rem;
+    .navbar__menu{
+        display: none;
+    }
+    .dropdownmenu{
+        display: block;
+    }
+    .submenu{
+        background-color: (--black);
+        margin: auto;
+        width: 10%;
+        height: 10%;
+        visibility: hidden;
+    }
+    .dropdownmenu__menu:hover ~ .submenu{
+        visibility: visible;
     }
 }
 /* Hero section */
