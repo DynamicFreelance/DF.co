@@ -75,7 +75,7 @@ html,body
     scroll-snap-align: start;
 }
 .hero{
-    background: linear-gradient(to right, rgba(0, 238, 255, 0.3), rgba(0,0,0, 0.2)),
+    background: linear-gradient(to right, rgba(135,206,235, 0.6), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 100vh;
     background-position: center;
