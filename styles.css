@@ -53,40 +53,62 @@ html,body
 .navbar__link:hover{
     color: var(--white);
 }
-.dropdown{
-    display: none;
-}
 @media screen and (max-width: 768px){
     .navbar__menu{
         display: none;
-    }
-    .dropdown{
-        display: block;
-        align-items: center;
-        position: relative;
-        margin-top: 8rem;
-        margin-right: 3rem;
-        background: (--black);
-        background-position: center;
-        background-size: cover;
-    }
-    .dropdown__container{
-        width: 100px;
-        padding: 2rem 2rem;
-        display: block;
-        background: (--black);
-    }
-    .navbar__link{
-        color: var(--blue);
-        text-decoration: none;
-        padding: 0.5rem 0.5rem;
-        background: (--black);
-    }
-    .navbar__link:hover{
-        color: var(--white);
-    }
-}
+    .dropdownmenu{
 
+    }
+    .dropdownmenu ul, .dropdownmenu li{
+        margin: 0;
+        padding: 0;
+    }
+    .dropdownmenu ul{
+        background: (--black);
+        list-style: none;
+        width: 100%;
+    }
+    .dropdownmenu li{
+        float: right;
+        position: relative;
+        width: auto;
+    }
+    .dropdownmenu a{
+        background: (--black);
+        color: (--blue);
+        display: block;
+        padding: 15px 55px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.25s ease;
+    }
+    .dropdownmenu li:hover a{
+        color: (--white);
+    }
+    #submenu{
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 35px;
+        visibility: hidden;
+        z-index: 1;
+    }
+    li:hover ul#submenu{
+        opacity: 1;
+        top: 80px;
+        visibility: visible;
+    }
+
+    #submenu li{
+        float: none;
+        width: 100%;
+    }
+    #submenu a:hover{
+        color: (--white);
+    }
+    #submenu a{
+        background-color: (--black);
+    }
 /* Hero section */
 .Hero__slider{
     display: grid;
