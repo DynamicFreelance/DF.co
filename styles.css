@@ -64,7 +64,7 @@ html,body
         display: block;
     }
     .dropdown__container{
-        display: none;
+        display: block;
     }
     .navbar__link{
         color: var(--blue);
@@ -75,9 +75,6 @@ html,body
     }
     .navbar__link:hover{
         color: var(--white);
-        .dropdown__container{
-            display: block;
-        }
     }
 }
 
