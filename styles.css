@@ -64,13 +64,12 @@ html,body
         display: block;
         align-items: center;
         position: relative;
-        margin-top: 1rem;
-        margin-right: 1rem;
+        margin-top: 4rem;
+        margin-right: 3rem;
     }
     .dropdown__container{
-        width: 2rem;
-        padding: 1rem 1rem;
-        background: (--black);
+        width: 4rem;
+        padding: 2rem 2rem;
         display: block;
     }
     .navbar__link{
@@ -79,6 +78,7 @@ html,body
         padding: 0rem 0.5rem;
         display: inline-block;
         position: relative;
+        background: (--black);
     }
     .navbar__link:hover{
         color: var(--white);
