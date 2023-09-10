@@ -54,7 +54,7 @@ html,body
     color: var(--white);
 }
 .dropdownmenu{
-    displau: none;
+    display: none;
 }
 @media screen and (max-width: 768px){
     .navbar__menu{
