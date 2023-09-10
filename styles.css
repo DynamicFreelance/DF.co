@@ -61,11 +61,11 @@ html,body
         display: none;
     }
     .dropdown{
+        position: relative;
         display: block;
-        width: 35px
-        height:35px;
+        width: 35px;
         cursor: pointer;
-        apperance: none;
+        appearance: none;
         background: none;
         outline: none;
         border: none;
