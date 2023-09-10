@@ -60,10 +60,13 @@ html,body
     .navbar__menu{
         display: none;
     }
-    ul li {
+    li {
         display: inline-block;
         position: relative;
     }
+    li a{
+        position: relative;
+        color: (--white);
     ul li a{
         display: block;
         padding: 20px 25px;
