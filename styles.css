@@ -73,7 +73,7 @@ html,body
 #check{display: none;}
 
 @media screen and (max-width: 768px){
-    .navbar{
+    .navbar__menu{
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -89,6 +89,9 @@ html,body
     .navbar__link{
         padding:10px;
         margin:40px;
+        display: flex;
+        felx-direction: column;
+        align-items: center;
     }
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
