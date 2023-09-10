@@ -64,18 +64,18 @@ html,body
         display: block;
         align-items: center;
         position: relative;
-        margin-top: 4rem;
-        margin-right: 3rem;
+        margin-top: 8rem;
+        margin-right: 5rem;
     }
     .dropdown__container{
-        width: 4rem;
+        width: 100px;
         padding: 2rem 2rem;
         display: block;
     }
     .navbar__link{
         color: var(--blue);
         text-decoration: none;
-        padding: 0rem 0.5rem;
+        padding: 0.5rem 0.5rem;
         display: inline-block;
         position: relative;
         background: (--black);
