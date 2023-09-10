@@ -62,13 +62,15 @@ html,body
     }
     .dropdown{
         display: block;
+        align-items: center;
+        position: relative;
+        margin-top: 1rem;
+        margin-right: 1rem;
     }
     .dropdown__container{
         width: 2rem;
-        position: relative;
         padding: 1rem 1rem;
         background: (--black);
-        align-items: center;
         display: block;
     }
     .navbar__link{
