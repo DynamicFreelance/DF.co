@@ -45,12 +45,12 @@ html,body
     padding-left: 1rem;
     font-size: 1rem;
 }
-.navbar__link1{
+.navbar__link{
     color: var(--blue);
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
-.navbar__link1:hover{
+.navbar__link:hover{
     color: var(--white);
 }
 .dropdown{
@@ -73,7 +73,7 @@ html,body
         color: var(--blue);
         text-decoration: none;
         padding: 0rem 0.5rem;
-        display: inline-block:
+        display: inline-block;
         position: relative;
     }
     .navbar__link:hover{
