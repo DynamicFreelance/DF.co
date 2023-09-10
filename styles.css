@@ -55,7 +55,7 @@ html,body
 }
 @media screen and (max-width: 768px){
     .navbar__link a{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 /* Hero section */
