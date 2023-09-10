@@ -64,8 +64,11 @@ html,body
         display: block;
     }
     .dropdown__container{
-        width: 35px;
+        width: 2rem;
         position: relative;
+        padding: 1rem 1rem;
+        background: (--black);
+        align-items: center;
         display: block;
     }
     .navbar__link{
