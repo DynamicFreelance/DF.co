@@ -92,6 +92,7 @@ html,body
         display: flex;
         felx-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
