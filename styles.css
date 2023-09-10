@@ -45,17 +45,39 @@ html,body
     padding-left: 1rem;
     font-size: 1rem;
 }
-.navbar__link{
+.navbar__link1{
     color: var(--blue);
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
-.navbar__link:hover{
+.navbar__link1:hover{
     color: var(--white);
+}
+.dropdown{
+    display: none;
 }
 @media screen and (max-width: 768px){
     .navbar__menu{
         display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .dropdown__container{
+        display: none;
+    }
+    .dropdown__container:hover{
+        display: block;
+    }
+    .navbar__link{
+        color: var(--blue);
+        text-decoration: none;
+        padding: 0rem 0.5rem;
+        display: inline-block:
+        position: relative;
+    }
+    .navbar__link:hover{
+        color: var(--white);
     }
 }
 
