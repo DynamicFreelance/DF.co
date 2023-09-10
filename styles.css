@@ -65,19 +65,19 @@ html,body
         align-items: center;
         position: relative;
         margin-top: 8rem;
-        margin-right: 5rem;
+        margin-right: 3rem;
+        background: (--black);
     }
     .dropdown__container{
         width: 100px;
         padding: 2rem 2rem;
         display: block;
+        background: (--black);
     }
     .navbar__link{
         color: var(--blue);
         text-decoration: none;
         padding: 0.5rem 0.5rem;
-        display: inline-block;
-        position: relative;
         background: (--black);
     }
     .navbar__link:hover{
