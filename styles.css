@@ -53,29 +53,9 @@ html,body
 .navbar__link:hover{
     color: var(--white);
 }
-.dropdownmenu{
-    padding: 1rem 1rem;
-    width: 100%;
-    position: relative;
-    align-items: center;
-    display: none;
-}
 @media screen and (max-width: 768px){
-    .navbar__menu{
-        display: none;
-    }
-    .dropdownmenu{
-        display: block;
-    }
-    .submenu{
-        background-color: (--black);
-        margin: auto;
-        width: 10%;
-        height: 10%;
-        visibility: hidden;
-    }
-    .dropdownmenu:hover ~ .submenu{
-        visibility: visible;
+    .navbar__link{
+        font-size: 0.6rem;
     }
 }
 /* Hero section */
