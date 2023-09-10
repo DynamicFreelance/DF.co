@@ -60,21 +60,7 @@ html,body
     .navbar__menu{
         display: none;
     }
-    .dropdownmenu{
-        display:block;
-    }
-    .submenu{
-        visibility: hidden;
-        width:100%;
-        height:100%;
-        background: (--black);
-    }
-    .dropdownmenu a:hover{
-        color: (--white);
-        .submenu{
-            visibility: visible;
-        }
-    }
+}
 /* Hero section */
 .Hero__slider{
     display: grid;
