@@ -67,6 +67,8 @@ html,body
         margin-top: 8rem;
         margin-right: 3rem;
         background: (--black);
+        background-position: center;
+        background-size: cover;
     }
     .dropdown__container{
         width: 100px;
