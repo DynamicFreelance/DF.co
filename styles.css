@@ -74,10 +74,10 @@ html,body
 #check{display: none;}
 .mouse-scroll p{
     color: var(--lightbrown);
-    rotate: 90deg;
+    rotate: -90deg;
     position: relative;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 .mouse-scroll{
     width: 2.1em;
