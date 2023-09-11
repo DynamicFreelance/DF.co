@@ -123,13 +123,13 @@ html,body
 }
 @keyframes pulse {
     0%{
-        opacity: 0.75;
-    }
-    50%{
         opacity: 0;
     }
+    50%{
+        opacity: 0.7;
+    }
     100%{
-        opacity: 0.75;
+        opacity: 0;
     }
 }
 @media screen and (max-width: 768px){
