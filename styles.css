@@ -87,7 +87,7 @@ html,body
     height: 0.5em;
     border-radius: 50%;
     background: var(--blue);
-    position: relative;
+    position: absolute;
     left: 50%;
     translateX: -50%;
     animation: scroll 2.5s infinite;
