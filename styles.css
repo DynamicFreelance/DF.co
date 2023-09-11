@@ -351,9 +351,10 @@ html,body
     width: 50%;
     height: 50%;
     margin-top: 3rem;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%)
 }
 /*About us section*/
 .team{
