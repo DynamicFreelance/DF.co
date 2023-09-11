@@ -160,6 +160,7 @@ html,body
     height: 100vh;
     background-position: center;
     background-size: cover;
+    margin-top: 3rem;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
     justify-content: flex-start;
