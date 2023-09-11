@@ -154,7 +154,7 @@ html,body
     overflow-y: hidden;
 }
 .Sales{
-    background: linear-gradient(to right, rgba(0,128,0,0.6), rgba(0,0,0, 0.2)),
+    background: linear-gradient(to right, rgba(0,110,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 100vh;
     background-position: center;
@@ -166,7 +166,7 @@ html,body
     scroll-snap-align: start;
 }
 .hero{
-    background: linear-gradient(to right, rgba(7, 42, 108, 0.6), rgba(0,0,0, 0.2)),
+    background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 100vh;
     background-position: center;
