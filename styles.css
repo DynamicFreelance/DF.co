@@ -72,6 +72,9 @@ html,body
 }
 #check{display: none;}
 
+.mouse-scroll__container{
+    transform: rotate(90deg);
+}
 .mouse-scroll{
     width: 2.1em;
     height: 4em;
