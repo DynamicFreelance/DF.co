@@ -22,7 +22,7 @@
         opacity: 1;
     }
 }
-@keyframes Slide-side{
+@keyframes Slideside{
     from {
         margin-right: 100%;
         opacity: 0;
@@ -248,7 +248,7 @@ html,body
 /* Services section */
 .services{
     animation-duration: 1.5s;
-    animation-name: Slide-side;
+    animation-name: Slideside;
     padding: 8rem calc((100vw - 1800px)/2);
 }
 .services__Container{
