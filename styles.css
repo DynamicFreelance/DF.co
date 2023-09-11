@@ -72,8 +72,9 @@ html,body
     right: 20px;
 }
 #check{display: none;}
-.mouse-scroll p{
+.hero__content h2{
     color: var(--lightbrown);
+    font-size: 12px;
     rotate: -90deg;
     position: relative;
     align-items: center;
