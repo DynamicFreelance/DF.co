@@ -75,12 +75,12 @@ html,body
 
 .mouse-scroll h2{
     color: var(--lightbrown);
-    font-size: 12px;
+    font-size: 16px;
     rotate: -90deg;
     position: absolute;
     align-items: center;
-    bottom: 43.5%;
-    left: -150%;
+    bottom: 44%;
+    left: -145%;
 }
 .mouse-scroll{
     width: 2.1em;
