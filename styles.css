@@ -72,7 +72,13 @@ html,body
     right: 20px;
 }
 #check{display: none;}
-
+.mouse-scroll p{
+    color: var(--lightbrown);
+    rotate: 90deg;
+    position: relative;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 .mouse-scroll{
     width: 2.1em;
     height: 4em;
