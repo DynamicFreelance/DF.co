@@ -336,6 +336,7 @@ html,body
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: relative;
     animation-duration: 1.5s;
     animation-name: Slide;
