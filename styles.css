@@ -84,7 +84,7 @@ html,body
     align-items: center;
     margin-left: 1rem;
     margin-top: 5rem;
-    bottom: calc(100vh * 2);
+    bottom: 95vh;
     left: 43.5%;
 }
 .mouse-scroll::before{
