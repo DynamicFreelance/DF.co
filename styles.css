@@ -79,8 +79,7 @@ html,body
     rotate: -90deg;
     position: relative;
     align-items: center;
-    left: 43.5%;
-    bottom: 190%;
+    top: 1;
 }
 .mouse-scroll{
     width: 2.1em;
