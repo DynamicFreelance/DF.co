@@ -4,7 +4,7 @@
     --blue:rgb(0, 238, 255);
     --brown:rgb(50,20,20);
     --grey:rgb(47,79,79);
-    --lightbrown:rgb(218, 160, 109);
+    --lightbrown:#D3D3D3;
 }
 *{
     box-sizing: border-box;
