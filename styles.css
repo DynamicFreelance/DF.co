@@ -80,7 +80,7 @@ html,body
     position: absolute;
     align-items: center;
     justify-content:center;
-    bottom: 35%;
+    bottom: 35.5%;
     left: -146%;
 }
 .mouse-scroll{
@@ -96,7 +96,7 @@ html,body
     margin-left: 1rem;
     margin-top: 4.5rem;
     bottom: 200%;
-    left: 43.5%;
+    left: 44%;
 }
 .mouse-scroll::before{
     content: '';
