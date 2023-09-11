@@ -97,7 +97,7 @@ html,body
     margin-top: 4.5rem;
     bottom: 200%;
     left: 44%;
-    animation: pulse 2.5s infinite;
+    animation: pulse 3.5s infinite;
 }
 .mouse-scroll::before{
     content: '';
