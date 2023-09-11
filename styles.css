@@ -79,7 +79,6 @@ html,body
     border: solid 2px var(--blue);
     border-radius:30px;
     position: relative;
-    overflow-x: hidden;
     rotate: -90deg;
 }
 .mouse-scroll::before{
@@ -135,6 +134,7 @@ html,body
     grid-template-columns: 100% 100% 100%;
     scroll-snap-type: x mandatory;
     overflow-x: auto;
+    overflow-y: hidden;
 }
 .Sales{
     background: linear-gradient(to right, rgba(255,165,0, 0.6), rgba(0,0,0, 0.2)),
