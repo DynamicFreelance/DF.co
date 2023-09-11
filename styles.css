@@ -90,12 +90,12 @@ html,body
     transform: translateX(-50%);
     animation: scroll 2.5s infinite;
 }
-@keyframs scroll {
-    0% {
+@keyframes scroll {
+    from {
     bottom: 80%;
     opacity: 1;
     }
-100% {
+    to {
     bottom: 20%;
     opacity: 0;
     }
