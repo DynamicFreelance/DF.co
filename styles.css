@@ -89,7 +89,7 @@ html,body
     rotate: -90deg;
     flex-direction: column;
     align-items: center;
-    bottom:1;
+    bottom: 0;
 }
 .mouse-scroll::before{
     content: '';
