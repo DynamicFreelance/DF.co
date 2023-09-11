@@ -81,9 +81,6 @@ html,body
     align-items: center;
     left: 43.5%;
     bottom: 190%;
-    flex-direction: column;
-    margin-left: 1rem;
-    margin-top: 4.5rem;
 }
 .mouse-scroll{
     width: 2.1em;
