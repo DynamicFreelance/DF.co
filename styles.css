@@ -107,7 +107,7 @@ html,body
     position: absolute;
     left: 50%;
     translateX: -50%;
-    animation: scroll 2.5s infinite;
+    animation: scroll 3s infinite;
     rotate: 90deg;
 }
 @keyframes scroll {
@@ -117,7 +117,7 @@ html,body
     }
     to {
     bottom: 20%;
-    opacity: 0.3;
+    opacity: 0;
     }
 }
 @media screen and (max-width: 768px){
