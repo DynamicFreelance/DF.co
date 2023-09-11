@@ -97,6 +97,7 @@ html,body
     margin-top: 4.5rem;
     bottom: 200%;
     left: 44%;
+    opacity: 0.7;
 }
 .mouse-scroll::before{
     content: '';
