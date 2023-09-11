@@ -97,7 +97,7 @@ html,body
     margin-top: 4.5rem;
     bottom: 200%;
     left: 44%;
-    opacity: 0.7;
+    animation: pulse 2s infinite;
 }
 .mouse-scroll::before{
     content: '';
@@ -119,6 +119,17 @@ html,body
     to {
     bottom: 20%;
     opacity: 0;
+    }
+}
+@keyframes pulse {
+    0{
+        opacity: 1;
+    }
+    50{
+        opacity: 0;
+    }
+    100{
+        opacity: 1;
     }
 }
 @media screen and (max-width: 768px){
