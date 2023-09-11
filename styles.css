@@ -4,6 +4,7 @@
     --blue:rgb(0, 238, 255);
     --brown:rgb(50,20,20);
     --grey:rgb(47,79,79);
+    --lightbrown:rgb(218, 160, 109);
 }
 *{
     box-sizing: border-box;
@@ -75,7 +76,7 @@ html,body
 .mouse-scroll{
     width: 2.1em;
     height: 4em;
-    border: solid 3px var(--blue);
+    border: solid 3px var(--lightbrown);
     border-radius:30px;
     position: relative;
     rotate: -90deg;
@@ -89,7 +90,7 @@ html,body
     width: 0.6em;
     height: 0.6em;
     border-radius: 50%;
-    background: var(--blue);
+    background: var(--lightbrown);
     position: absolute;
     left: 50%;
     translateX: -50%;
