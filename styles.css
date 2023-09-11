@@ -84,8 +84,8 @@ html,body
     align-items: center;
     margin-left: 1rem;
     margin-top: 3rem;
-    bottom: 98%;
-    left: 50%;
+    bottom: 150%;
+    left: 45%;
 }
 .mouse-scroll::before{
     content: '';
