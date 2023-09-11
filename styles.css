@@ -22,16 +22,6 @@
         opacity: 1;
     }
 }
-@keyframes Slideside{
-    from {
-        margin-right: 100%;
-        opacity: 0;
-    }
-    to{
-        margin-right: 0%;
-        opacity: 1;
-    }
-}
 html,body
 {
     width: 100%;
@@ -248,7 +238,7 @@ html,body
 /* Services section */
 .services{
     animation-duration: 1.5s;
-    animation-name: Slideside;
+    animation-name: Slide;
     padding: 8rem calc((100vw - 1800px)/2);
 }
 .services__Container{
@@ -347,6 +337,8 @@ html,body
     justify-content: center;
     align-items: center;
     position: relative;
+    animation-duration: 1.5s;
+    animation-name: Slide;
 }
 .thanks__heading p{
     font-size: 1rem;
@@ -356,6 +348,8 @@ html,body
     align-items: center;
     position: relative;
     color: var(--blue);
+    animation-duration: 1.5s;
+    animation-name: Slide;
 }
 /*About us section*/
 .team{
