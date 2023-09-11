@@ -71,6 +71,15 @@ html,body
     right: 20px;
 }
 #check{display: none;}
+
+.mouse-scroll__container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    margin-bottom: 2rem;
+}
 .mouse-scroll{
     width: 2.1em;
     height: 4em;
