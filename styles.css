@@ -71,12 +71,6 @@ html,body
     right: 20px;
 }
 #check{display: none;}
-
-.mouse-scroll__container{
-    position: absolute;
-    top: 100px;
-    left: 150px;
-}
 .mouse-scroll{
     width: 2.1em;
     height: 4em;
