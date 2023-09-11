@@ -85,7 +85,7 @@ html,body
     margin-left: 1rem;
     margin-top: 3rem;
     bottom: 190%;
-    left: 40%;
+    left: 43%;
 }
 .mouse-scroll::before{
     content: '';
