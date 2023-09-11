@@ -22,6 +22,16 @@
         opacity: 1;
     }
 }
+@keyframes Slide-side{
+    from {
+        margin-right: 100%;
+        opacity: 0;
+    }
+    to{
+        margin-right: 0%;
+        opacity: 1;
+    }
+}
 html,body
 {
     width: 100%;
@@ -238,7 +248,7 @@ html,body
 /* Services section */
 .services{
     animation-duration: 1.5s;
-    animation-name: Slide;
+    animation-name: Slide-side;
     padding: 8rem calc((100vw - 1800px)/2);
 }
 .services__Container{
