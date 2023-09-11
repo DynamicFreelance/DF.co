@@ -78,18 +78,16 @@ html,body
     height: 4em;
     border: solid 2px var(--blue);
     border-radius:30px;
-    position: relative;
+    position: absolute;
     rotate: -90deg;
 }
 .mouse-scroll::before{
-    margin-top: 3rem;
-    margin-left: 1rem;
     content: '';
     width: 0.5em;
     height: 0.5em;
     border-radius: 50%;
     background: var(--blue);
-    position:absolute;
+    position: relative;
     left: 50%;
     translateX: -50%;
     animation: scroll 2.5s infinite;
