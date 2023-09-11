@@ -72,6 +72,7 @@ html,body
 }
 #check{display: none;}
 .mouse-scroll{
+    margin-top: 3rem;
     width: 2.1em;
     height: 4em;
     border: solid 2px var(--blue);
@@ -80,6 +81,7 @@ html,body
     rotate: -90deg;
 }
 .mouse-scroll::before{
+    margin-top: 3rem;
     content: '';
     width: 0.5em;
     height: 0.5em;
