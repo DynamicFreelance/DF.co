@@ -226,6 +226,7 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-direction: column;
 }
 .button{
     padding: 1rem 3rem;
