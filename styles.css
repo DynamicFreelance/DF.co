@@ -376,6 +376,10 @@ html,body
     margin-bottom: 1rem;
     font-size: 3rem;
 }
+.team__text h2{
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
 .team__desc{
     font-size: clamp(1rem, 3vw, 1.3rem);
     line-height: 1.4;
