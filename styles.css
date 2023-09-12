@@ -362,6 +362,7 @@ html,body
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(auto, 350px);
+    margin-top: 2rem;
 }
 .team__card{
     margin: 1rem;
