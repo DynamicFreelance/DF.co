@@ -261,6 +261,10 @@ html,body
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
+.fas fa-check-cricle{
+    background-color: var(--blue);
+    color: var(--blue);
+}
 .services__heading{
     margin-bottom: 2rem;
     font-size: clamp(2rem, 6vw, 4rem);
