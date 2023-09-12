@@ -253,7 +253,7 @@ html,body
 .services{
     animation-duration: 1.5s;
     animation-name: Slide;
-    padding: 8rem calc((100vw - 1800px)/2);
+    padding: 1rem;
 }
 .services__Container{
     display: grid;
@@ -263,7 +263,7 @@ html,body
 .services__img{
     width: 90%;
     height: 90%;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .topline{
     color: var(--blue);
