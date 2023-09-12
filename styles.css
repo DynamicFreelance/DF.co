@@ -42,10 +42,6 @@ html,body
     width: 100%;
 }
 .navbar__logo{
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
     color: var(--blue);
     text-decoration: none;
     padding-left: 1rem;
