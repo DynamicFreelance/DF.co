@@ -221,6 +221,12 @@ html,body
     font-size: clamp(1rem, 4vw, 2.5rem);
     margin-bottom: 3rem; 
 }
+.website__message{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .button{
     padding: 1rem 3rem;
     border: none;
