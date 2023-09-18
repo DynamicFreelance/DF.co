@@ -628,6 +628,7 @@ input [type=text], select{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    flex-direction:column;
 }
 .charts__container h1{
     margin-top: 1rem;
