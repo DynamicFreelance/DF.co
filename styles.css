@@ -647,6 +647,6 @@ input [type=text], select{
 }
 @media screen and (max-width: 820px) {
     .reviews__img{
-        width:100%;
+        width:50%;
     }
 }
