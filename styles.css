@@ -299,8 +299,8 @@ html,body
     padding: 1rem;
 }
 .services__img{
-    width: 70%;
-    height: 70%;
+    width: 180px;
+    height: 150px;
     margin-top: 1rem;
 }
 .topline{
