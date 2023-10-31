@@ -304,10 +304,11 @@ html,body
     margin-top: 1rem;
 }
 .topline{
+    margin-top: 1rem;
     color: var(--blue);
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
 .services__heading{
@@ -425,6 +426,7 @@ html,body
 }
 .team__text{
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 .team__text h1{
     margin-bottom: 1rem;
