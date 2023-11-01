@@ -652,6 +652,12 @@ span{
     }
     .footer__links{
         padding: 1rem;
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        text-align: center;
     }
 }
 .reveal{
