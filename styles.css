@@ -646,11 +646,8 @@ span{
         text-align: center;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:800px){
     .footer__desc{
-        padding: 1rem;
-    }
-    .footer__links{
         padding: 1rem;
         position:relative;
         display:flex;
@@ -658,6 +655,9 @@ span{
         align-items:center;
         flex-direction: column;
         text-align: center;
+    }
+    .footer__links{
+        padding: 1rem;
     }
 }
 .reveal{
