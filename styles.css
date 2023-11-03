@@ -28,7 +28,7 @@
 }
 body{
     cursor: cell;
-    caret-color: var(--blue);
+    caret-color: transparent;
 }
 .pointer1{
    transition: 0.05s;
