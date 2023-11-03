@@ -12,6 +12,13 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
+.trail{
+    display:flex;
+    justify-content:center;
+    align-itmes:center;
+    text-align:center;
+    position: relative;
+}
 .pointer{
     position:absolute;
     top:50%;
