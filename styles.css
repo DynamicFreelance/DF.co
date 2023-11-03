@@ -27,7 +27,7 @@
     transition:0.2s;
 }
 body{
-    cursor: pointer, auto;
+    cursor: pointer;
 }
 .pointer1{
    transition: 0.05s;
