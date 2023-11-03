@@ -32,15 +32,19 @@
 }
 .pointer2{
    transition: 0.1s;
+    scale: 0.9;
 }
 .pointer3{
    transition: 0.15s;
+    scale: 0.8;
 }
 .pointer4{
    transition: 0.2s;
+    scale: 0.7;
 }
 .pointer5{
    transition: 0.25s;
+    scale: 0.6;
 }
 @keyframes Slide{
     from {
