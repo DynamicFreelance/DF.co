@@ -25,6 +25,7 @@
     pointer-events:none;
     box-sizing: border-box;
     transition:0.2s;
+    display:flex;
 }
 .pointer1{
    transition: 0.05s;
