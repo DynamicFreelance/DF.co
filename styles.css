@@ -26,7 +26,7 @@
     transform: translate(-50%,-50%);
     width: 40px;
     height: 40px;
-    border: 1px solid var(--blue);
+    border: 2px solid var(--blue);
     border-radius: 50%;
     pointer-events:none;
     box-sizing: border-box;
