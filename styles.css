@@ -13,7 +13,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .pointer{
-    position:absolute;
+    position:sticky ;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -101,6 +101,7 @@ html,body
     color: var(--blue);
     text-decoration: none;
     padding: 0rem 0.5rem;
+    cursor: none;
 }
 .navbar__link:hover{
     color: var(--white);
@@ -322,7 +323,6 @@ html,body
     background: var(--blue);
     color: var(--white);
     font-size: 1rem;
-    cursor: pointer;
     outline: none;
     transition: 0.3s ease;
     text-decoration: none;
