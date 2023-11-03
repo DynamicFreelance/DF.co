@@ -12,6 +12,35 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
+.pointer{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background: var(--blue);
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    pointer-events:none;
+    box-sizing: border-box;
+    transition:0.2s;
+}
+.pointer1{
+   transition: 0.05s;
+}
+.pointer2{
+   transition: 0.1s;
+}
+.pointer3{
+   transition: 0.15s;
+}
+.pointer4{
+   transition: 0.2s;
+}
+.pointer5{
+   transition: 0.25s;
+}
 @keyframes Slide{
     from {
         margin-top: 100%;
