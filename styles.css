@@ -14,7 +14,7 @@
 }
 .trail{
     width:100vw;
-    min-height:100vh;
+    height: 100%;
 .pointer{
     position:sticky ;
     top:50%;
