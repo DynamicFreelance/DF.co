@@ -27,8 +27,7 @@
     transition:0.2s;
 }
 body{
-    cursor: cell;
-    caret-color: rgb(0, 238, 255);
+    cursor: none;
 }
 .pointer1{
    transition: 0.05s;
