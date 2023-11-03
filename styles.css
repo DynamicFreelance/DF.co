@@ -382,6 +382,7 @@ html,body
     color: var(--white);
     padding: 2rem calc((100vw - 1700px)/2);
     text-align: center;
+    cursor: pointer;
 }
 .Marketing h1{
     margin-bottom: 1rem;
@@ -398,7 +399,6 @@ html,body
     justify-content: space-between;
     align-items: flex-start;
     padding: 1rem;
-    cursor: pointer;
 }
 .Marketing__card{
     padding: 2rem;
