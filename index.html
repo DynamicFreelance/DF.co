@@ -31,19 +31,6 @@
     </nav>
     <!--Hero Section-->
     <div class="Hero__slider">
-        <div class="trail">
-        <div class="pointer pointer1"></div>
-        <div class="pointer pointer2"></div>
-        <div class="pointer pointer3"></div>
-        <div class="pointer pointer4"></div>
-        <div class="pointer pointer5"></div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script> type="text/javascript">
-        $(document).mousemove(function(e){
-            $('.pointer').css({left:e.pageX, top:e.pageY});
-        })
-    </script>
         <div id="Hero" class="hero">
             <div class="hero__content">
                 <h1>Dynamic Technologies</h1>
@@ -68,6 +55,19 @@
                 <div class="mouse-scroll"><h2>swipe</h2></div>
             </div>
         </div>
+         <div class="trail">
+        <div class="pointer pointer1"></div>
+        <div class="pointer pointer2"></div>
+        <div class="pointer pointer3"></div>
+        <div class="pointer pointer4"></div>
+        <div class="pointer pointer5"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script> type="text/javascript">
+        $(document).mousemove(function(e){
+            $('.pointer').css({left:e.pageX, top:e.pageY});
+        })
+    </script>
     </div>
     <!--Services Section-->
     <div id="services" class="services">
