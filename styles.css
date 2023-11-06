@@ -364,7 +364,6 @@ html,body
     font-size: clamp(2rem, 6vw, 4rem);
     justify-content:center;
     align-items:center;
-    text-align:center;
 }
 .services__features{
     list-style: none;
