@@ -33,17 +33,17 @@
     <div class="Hero__slider">
         <div id="Hero" class="hero">
             <div class="hero__content">
-                <h1>Dynamic Technologies</h1>
-                <p>Book a consultation today</p>
-                <a href="/Contacts.html" class="button">Book Now</a>
+                <h1>Free Hosting for 1 Month</h1>
+                <p>First month free with the purchase of a website</p>
+                <a href="/Services.html" class="button">Learn More</a>
                 <div class="mouse-scroll"><h2>swipe</h2></div>
             </div>
         </div>
         <div id="Sales" class="Sales">
             <div class="hero__content">
-                <h1>Sales & Special Offers</h1>
-                <p>View all our upcoming sales and offers</p>
-                <a href="/Sales.html" class="button">Learn More</a>
+                <h1>Student Discount</h1>
+                <p>25% Off Website Commissions</p>
+                <a href="/Contacts.html" class="button">Contact Us</a>
                 <div class="mouse-scroll"><h2>swipe</h2></div>
             </div>
         </div>
@@ -55,3 +55,56 @@
                 <div class="mouse-scroll"><h2>swipe</h2></div>
             </div>
         </div>
+    </div>
+      <!--Footer section-->
+        <div class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__desc">
+                    <h1>DYNAMIC TECHNOLOGIES</h1>
+                    <p>Located in Toronto Ontario Canada.</p>
+                    <p id="phone">289-383-4552</p>
+                    <p id="email">dynamicfreelance.co@gmail.com</p>
+                </div>
+                <div class="footer__links">
+                    <h2 class="footer__title">Contact Us</h2>
+                    <a href="/Contacts.html" class="footer__link">Contact</a>
+                    <a href="/Contacts.html" class="footer__link">Support</a>
+                </div>
+            </div>
+            <div class="footer__wrapper">
+                <div class="footer__links">
+                    <h2 class="footer__title">Social Media</h2>
+                    <a href="/Contacts.html" class="footer__link">Instagram</a>
+                    <a href="/Contacts.html" class="footer__link">Youtube</a>
+                </div>
+                <div class="footer__links">
+                    <h2 class="footer__title">Services</h2>
+                    <a href="/Services.html" class="footer__link">Pricing</a>
+                    <a href="/Services.html" class="footer__link">Features</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+        <script src="app.js"></script>
+</body>
+</html>
