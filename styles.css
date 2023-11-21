@@ -215,16 +215,9 @@ html,body
     scroll-snap-type: x mandatory;
     overflow-x: auto;
     overflow-y: hidden;
-    animation: parallax linear;
     animation-timeline: scroll();
 }
-@keyframes parallax{
-    to{
-        transform: translateY(calc(var(--parallax-speed) * 200px));
-    }
-}
 .Sales{
-    --parallax-speed: 10;
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 100vh;
@@ -237,7 +230,6 @@ html,body
     scroll-snap-align: start;
 }
 .hero{
-    --parallax-speed: 10;
     background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 100vh;
@@ -250,7 +242,6 @@ html,body
     scroll-snap-align: start;
 }
 .Games{
-    --parallax-speed: 10;
     background: linear-gradient(to right, rgba(128,0,128, 0.6), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 100vh;
@@ -264,7 +255,6 @@ html,body
 }
 @media screen and (max-width: 768px){
     .Sales{
-    --parallax-speed: 10;
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 80vh;
@@ -277,7 +267,6 @@ html,body
     scroll-snap-align: start;
 }
 .hero{
-    --parallax-speed: 10;
     background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 80vh;
@@ -290,7 +279,6 @@ html,body
     scroll-snap-align: start;
 }
 .Games{
-    --parallax-speed: 10;
     background: linear-gradient(to right, rgba(128,0,128, 0.6), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 80vh;
@@ -304,7 +292,6 @@ html,body
 }
 }
 .hero__content{
-    --parallax-speed: -50;
     color: var(--white);
     padding: 3rem 1rem;
     margin-top: 3rem;
