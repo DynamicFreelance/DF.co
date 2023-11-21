@@ -216,6 +216,14 @@ html,body
     overflow-x: auto;
     overflow-y: hidden;
 }
+@keyframes parallax{
+    to{
+        transform: translateY(calc(var(--parallax-speed) * 200px));
+    }
+}
+.parallax_front{
+    
+}
 .Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
@@ -239,6 +247,8 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
+    animation: parallax linear;
+    animation-timeline: scroll();
 }
 .Games{
     background: linear-gradient(to right, rgba(128,0,128, 0.6), rgba(0,0,0, 0.2)),
@@ -291,8 +301,7 @@ html,body
 }
 }
 .hero__content{
-    animation-duration: 1.5s;
-    animation-name: Slide;
+    --parallax-speed: -50;
     color: var(--white);
     padding: 3rem 1rem;
     margin-top: 3rem;
