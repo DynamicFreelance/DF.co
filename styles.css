@@ -221,9 +221,6 @@ html,body
         transform: translateY(calc(var(--parallax-speed) * 200px));
     }
 }
-.parallax_front{
-    
-}
 .Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
@@ -276,6 +273,7 @@ html,body
     scroll-snap-align: start;
 }
 .hero{
+    -parallax-speed: 10;
     background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 80vh;
