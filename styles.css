@@ -435,11 +435,6 @@ html,body
     margin-bottom: 1rem;
     font-size: 1.5rem;
     padding: 3rem 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
     animation-duration: 1.5s;
     animation-name: Slide;
 }
