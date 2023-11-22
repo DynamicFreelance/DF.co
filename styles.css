@@ -434,7 +434,7 @@ html,body
 .thanks__heading h1{
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
     animation-duration: 1.5s;
     animation-name: Slide;
 }
@@ -452,7 +452,7 @@ html,body
     font-weight: bold;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
     animation-duration: 1.5s;
     animation-name: Slide;
 }
