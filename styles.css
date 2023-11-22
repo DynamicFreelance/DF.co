@@ -443,6 +443,13 @@ html,body
     animation-duration: 1.5s;
     animation-name: Slide;
 }
+.thanks{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    text-align:center;
+}
 .thanks__heading p{
     margin-top: 1rem;
     color: var(--blue);
@@ -451,10 +458,6 @@ html,body
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     padding: 3rem 2rem;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
     animation-duration: 1.5s;
     animation-name: Slide;
 }
