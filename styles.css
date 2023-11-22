@@ -444,13 +444,17 @@ html,body
     animation-name: Slide;
 }
 .thanks__heading p{
-    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--blue);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
     padding: 3rem 2rem;
     display: flex;
     justify-content:center;
     align-items: center;
     position: relative;
-    color: var(--blue);
     animation-duration: 1.5s;
     animation-name: Slide;
 }
