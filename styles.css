@@ -493,14 +493,14 @@ html,body
 }
 .team__card p{
     position: absolute;
-    left: 25px;
+    left: 185px;
     color: var(--grey);
     font-size: 3rem;
     bottom: 30px;
 }
 .team__card a{
     position: absolute;
-    left: 30px;
+    left: 190px;
     color: var(--black);
     font-size: 3rem;
     bottom: 30px;
@@ -515,6 +515,8 @@ html,body
     bottom:30px;
 }
 .team__img{
+    margin-left: 10rem;
+    padding: 1rem:
     width: calc(90vh/1.5);
     height: 90vh;
     object-fit: cover;
@@ -562,6 +564,20 @@ html,body
         border-radius: 100px;
         margin-bottom: 0rem;
     }
+    .team__card p{
+    position: absolute;
+    left: 25px;
+    color: var(--grey);
+    font-size: 3rem;
+    bottom: 30px;
+}
+.team__card a{
+    position: absolute;
+    left: 30px;
+    color: var(--black);
+    font-size: 3rem;
+    bottom: 30px;
+}
 }
 
 /* Contact page */
