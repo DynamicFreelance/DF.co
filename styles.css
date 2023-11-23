@@ -568,12 +568,12 @@ html,body
     .team__card p{
     color: var(--grey);
     font-size: 3rem;
-    position:relative;
+    left:0px;
     }
     .team__card a{
     color: var(--black);
     font-size: 3rem;
-    position:relative;
+    left:0px;
     }
     .team__card{
         display:flex;
