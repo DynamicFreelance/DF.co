@@ -568,7 +568,7 @@ html,body
     .team__card p{
     color: var(--grey);
     font-size: 3rem;
-    left:40px;
+    left:35px;
     }
     .team__card a{
     color: var(--black);
