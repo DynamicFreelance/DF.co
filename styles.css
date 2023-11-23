@@ -852,8 +852,8 @@ input [type=text], select{
         width:50%;
     }
         .container .wrapper{
-        width:60vw;
-        height:65vw;
+        width:80vw;
+        height:85vw;
         box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
         margin: 5rem auto;
      }
