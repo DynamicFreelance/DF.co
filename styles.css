@@ -795,6 +795,7 @@ input [type=text], select{
 }
 .container{
   position:relative;
+    scroll-snap-type: x mandatory;
 }
 .container .wrapper{
   width:50vw;
@@ -816,21 +817,25 @@ input [type=text], select{
   background-image: url("./images/D-Tech Logo.png");
   background-position: center;
   background-size:cover;
+    scroll-snap-type: x mandatory;
 }
 .container #slider-img-2{
   background-image: url("./images/Headshot C.JPG");
   background-position: center;
-  background-size:cover;
+  background-size:cover;\
+    scroll-snap-type: x mandatory;
 }
 .container #slider-img-3{
   background-image: url("./images/D-Tech Logo.png");
   background-position: center;
   background-size:cover;
+    scroll-snap-type: x mandatory;
 }
 .container #slider-img-4{
   background-image: url("./images/Headshot A.JPG");
   background-position: center;
   background-size:cover;
+    scroll-snap-type: x mandatory;
 }
 .container .button-holder .review-button{
   background-color: rgb(0, 238, 255);
