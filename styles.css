@@ -465,7 +465,7 @@ html,body
 .team__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(auto, 90vh);
+    grid-template-rows: repeat(auto, 110vh);
     margin-top: 1rem;
 }
 .team__card{
