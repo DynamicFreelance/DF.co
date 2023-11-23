@@ -465,7 +465,7 @@ html,body
 .team__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(auto, 110vh);
+    grid-template-rows: repeat(auto, 300px);
     margin-top: 1rem;
 }
 .team__card{
@@ -516,10 +516,9 @@ html,body
 }
 .team__img{
     width: 100%;
-    height: 75%;
+    height: 80%;
     object-fit: cover;
     border-radius: 100px;
-    margin-bottom: -15rem;
     outline: var(--blue);
     outline-width: 0.4rem;
     outline-style: outset;
@@ -531,6 +530,7 @@ html,body
 .team__card:nth-child(2){
     grid-row: 2/3;
     grid-column: 1/2;
+    bottom: 30px;
 }
 .team__card:nth-child(3){
     grid-row: 2/3;
@@ -539,6 +539,7 @@ html,body
 .team__card:nth-child(4){
     grid-row: 3/4;
     grid-column: 2/3;
+    bottom: 30px;
 }
 .team__card:nth-child(5){
     grid-row: 3/4;
