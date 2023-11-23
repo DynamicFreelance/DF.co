@@ -797,8 +797,8 @@ input [type=text], select{
   position:relative;
 }
 .container .wrapper{
-  width:40vw;
-  height:45vw;
+  width:80vh;
+  height:85vh;
   box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
   margin: 5rem auto;
 }
