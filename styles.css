@@ -517,6 +517,7 @@ html,body
 .team__img{
     width: 40vw;
     height: calc(30vw * 1.1px);
+    object-fit: cover;
     border-radius: 10px;
 }
 .team__text{
