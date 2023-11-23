@@ -519,7 +519,7 @@ html,body
     height: 75%;
     object-fit: cover;
     border-radius: 100px;
-    margin-bottom: -40px;
+    margin-bottom: -15rem;
     outline: var(--blue);
     outline-width: 0.4rem;
     outline-style: outset;
