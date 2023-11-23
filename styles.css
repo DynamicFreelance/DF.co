@@ -568,10 +568,12 @@ html,body
     .team__card p{
     color: var(--grey);
     font-size: 3rem;
+    position:relative;
     }
     .team__card a{
     color: var(--black);
     font-size: 3rem;
+    position:relative;
     }
     .team__card{
         display:flex;
@@ -579,6 +581,7 @@ html,body
         align-items:center;
         text-align:center;
         flex-direction:column;
+        position: relative;
     }
 }
 
