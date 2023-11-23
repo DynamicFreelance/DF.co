@@ -845,7 +845,7 @@ input [type=text], select{
 }
 .container .button-holder{
   position:absolute;
-  left:45vw;
+  left:40vw;
   bottom:0%;
 }
 @media screen and (max-width: 820px) {
