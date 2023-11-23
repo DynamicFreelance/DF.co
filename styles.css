@@ -492,6 +492,10 @@ html,body
     margin-bottom: 3rem;
     margin-top: 1rem;
 }
+.info__wrapper{
+    width: 100vw;
+    background: var(--lightbrown);
+}
 .team__card p{
     position: absolute;
     left: 115px;
