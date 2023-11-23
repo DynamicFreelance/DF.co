@@ -520,6 +520,9 @@ html,body
     object-fit: cover;
     border-radius: 100px;
     margin-bottom: -3rem;
+    outline: var(--blue);
+    outline-width: 0.4rem;
+    outline-style: outset;
 }
 .team__text{
     grid-row: 1/2;
