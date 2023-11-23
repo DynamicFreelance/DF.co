@@ -501,8 +501,6 @@ html,body
     color: var(--grey);
     font-size: 3rem;
     bottom: 30px;
-    margin-right: 2rem;
-    padding:1rem;
 }
 .team__card a{
     position: absolute;
@@ -510,8 +508,6 @@ html,body
     color: var(--black);
     font-size: 3rem;
     bottom: 30px;
-    margin-right: 2rem;
-    padding:1rem;
 }
 .team__card h1{
     position: absolute;
@@ -521,6 +517,8 @@ html,body
     line-height: 1.4;
     font-weight: normal;
     bottom:30px;
+    padding:1rem;
+    margin-right:3rem;
 }
 .team__img{
     margin-left: 5rem;
