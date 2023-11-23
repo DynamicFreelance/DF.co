@@ -492,18 +492,16 @@ html,body
     margin-top: 1rem;
 }
 .team__card p{
-    position: relative;
+    position: absolute;
     color: var(--grey);
     font-size: 3rem;
-    margin-bottom: 1rem;
-    padding: 1rem 3rem;
+    bottom: 30px;
 }
 .team__card a{
-    position: relative;
+    position: absolute;
     color: var(--black);
     font-size: 3rem;
-    margin-bottom: 1rem;
-    padding: 1rem 3rem;
+    bottom: 30px;
 }
 .team__card h1{
     position: absolute;
@@ -512,6 +510,7 @@ html,body
     font-size: clamp(1rem, 2vw, 1.5rem);
     line-height: 1.4;
     font-weight: normal;
+    bottom:1px;
 }
 .team__img{
     width: 100%;
