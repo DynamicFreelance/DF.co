@@ -566,19 +566,20 @@ html,body
         margin-bottom: 0rem;
     }
     .team__card p{
-    position: absolute;
-    left: 35px;
     color: var(--grey);
     font-size: 3rem;
-    bottom: 30px;
     }
     .team__card a{
-    position: absolute;
-    left: 45px;
     color: var(--black);
     font-size: 3rem;
-    bottom: 30px;
-}
+    }
+    .team__card{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        text-align:center;
+        flex-direction:column;
+    }
 }
 
 /* Contact page */
