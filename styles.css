@@ -798,10 +798,23 @@ input [type=text], select{
     scroll-snap-type: x mandatory;
 }
 .container .wrapper{
-  width:50vw;
-  height:65vw;
+  width:40vw;
+  height:45vw;
   box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
   margin: 5rem auto;
+}
+@media screen and (max-width: 880px){
+    .container .wrapper{
+        width:60vw;
+        height:65vw;
+        box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
+        margin: 5rem auto;
+     }
+    .container .button-holder{
+      position:absolute;
+      left:35vw;
+      bottom:0%;
+    }
 }
 .container .wrapper-holder{
     display:grid;
