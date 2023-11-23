@@ -501,6 +501,8 @@ html,body
     color: var(--grey);
     font-size: 3rem;
     bottom: 30px;
+    margin-right: 2rem;
+    padding:1rem;
 }
 .team__card a{
     position: absolute;
@@ -508,6 +510,8 @@ html,body
     color: var(--black);
     font-size: 3rem;
     bottom: 30px;
+    margin-right: 2rem;
+    padding:1rem;
 }
 .team__card h1{
     position: absolute;
