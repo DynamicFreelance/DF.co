@@ -797,8 +797,8 @@ input [type=text], select{
   position:relative;
 }
 .container .wrapper{
-  width:55vw;
-  height:50vw;
+  width:50vw;
+  height:65vw;
   box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
   margin: 5rem auto;
 }
@@ -844,7 +844,7 @@ input [type=text], select{
 }
 .container .button-holder{
   position:absolute;
-  left:35vw;
+  left:45vw;
   bottom:0%;
 }
 @keyframes slider{
