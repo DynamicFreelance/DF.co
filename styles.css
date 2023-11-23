@@ -465,7 +465,7 @@ html,body
 .team__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(auto, 200px);
+    grid-template-rows: repeat(auto, 90vh);
     margin-top: 1rem;
 }
 .team__card{
@@ -493,14 +493,14 @@ html,body
 }
 .team__card p{
     position: absolute;
-    left: 20px;
+    left: 25px;
     color: var(--grey);
     font-size: 3rem;
     bottom: 30px;
 }
 .team__card a{
     position: absolute;
-    left: 20px;
+    left: 25px;
     color: var(--black);
     font-size: 3rem;
     bottom: 30px;
