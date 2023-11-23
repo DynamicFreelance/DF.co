@@ -219,7 +219,7 @@ html,body
 }
 .Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
-    url('./images/DF3.png');
+    url('./images/Student Discount.jpg');
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -256,7 +256,7 @@ html,body
 @media screen and (max-width: 768px){
     .Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
-    url('./images/DF3.png');
+    url('./images/Student Discount.jpg');
     height: 80vh;
     background-position: center;
     background-size: cover;
