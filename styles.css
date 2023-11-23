@@ -519,7 +519,7 @@ html,body
     height: 80%;
     object-fit: cover;
     border-radius: 100px;
-    bottom:20px;
+    bottom:50px;
 }
 .team__text{
     grid-row: 1/2;
@@ -556,7 +556,6 @@ html,body
         height: 80%;
         object-fit: cover;
         border-radius: 100px;
-        bottom:20px;
     }
 }
 
