@@ -70,19 +70,6 @@ body{
         opacity: 1;
     }
 }
-@keyframes slider{
-  0%{transform:translateX(0%);}
-  10%{transform:translateX(-100%);}
-  20%{transform:translateX(-100%);}
-  30%{transform:translateX(-200%);}
-  40%{transform:translateX(-200%);}
-  50%{transform:translateX(-200%);}
-  60%{transform:translateX(-300%);}
-  70%{transform:translateX(-300%);}
-  80%{transform:translateX(-300%);}
-  90%{transform:translateX(0%);}
-  100%{transform:translateX(0%);}
-}
 html,body
 {
     width: 100%;
@@ -229,7 +216,6 @@ html,body
     overflow-x: auto;
     overflow-y: hidden;
     animation-timeline: scroll();
-    animation:slider 40s ease-in-ou infinite alternate;
 }
 .Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
