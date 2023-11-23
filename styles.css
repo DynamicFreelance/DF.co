@@ -474,6 +474,8 @@ html,body
     position: relative;
 }
 .team__text{
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding: 3rem 1rem;
     margin-bottom: 1rem;
 }
@@ -548,6 +550,8 @@ html,body
 }
 @media screen and (max-width: 768px){
     .team__text{
+    margin-left: 0rem;
+    margin-right: 0rem;
     padding: 1rem;
     margin-bottom: 1rem;
     }
