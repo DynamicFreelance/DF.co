@@ -516,7 +516,7 @@ html,body
 }
 .team__img{
     width: 40vw;
-    height: calc(30vw * 1.1px);
+    height: calc(50vw * 1.1px);
     object-fit: cover;
     border-radius: 10px;
 }
@@ -558,7 +558,7 @@ html,body
     }
     .team__img{
          width: 80vw;
-        height: calc(60vw * 1.1px);
+        height: calc(90vw * 1.1px);
         object-fit: cover;
     }
 }
