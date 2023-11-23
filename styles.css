@@ -515,11 +515,12 @@ html,body
     bottom:30px;
 }
 .team__img{
+    position: absolute;
     width: 100%;
-    height: 70%;
+    height: 80%;
     object-fit: cover;
     border-radius: 100px;
-    bottom: 200px;
+    bottom: 35px;
 }
 .team__text{
     grid-row: 1/2;
