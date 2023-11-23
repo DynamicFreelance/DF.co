@@ -493,14 +493,14 @@ html,body
 }
 .team__card p{
     position: absolute;
-    left: 105px;
+    left: 110px;
     color: var(--grey);
     font-size: 3rem;
     bottom: 30px;
 }
 .team__card a{
     position: absolute;
-    left: 110px;
+    left: 115px;
     color: var(--black);
     font-size: 3rem;
     bottom: 30px;
@@ -572,14 +572,14 @@ html,body
     }
     .team__card p{
     position: absolute;
-    left: 25px;
+    left: 30px;
     color: var(--grey);
     font-size: 3rem;
     bottom: 30px;
     }
     .team__card a{
     position: absolute;
-    left: 30px;
+    left: 35px;
     color: var(--black);
     font-size: 3rem;
     bottom: 30px;
