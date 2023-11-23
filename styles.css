@@ -496,18 +496,18 @@ html,body
     color: var(--grey);
     font-size: 3rem;
     margin-bottom: 1rem;
-    padding: 0rem 1rem;
+    padding: 0rem 3rem;
 }
 .team__card a{
     position: relative;
     color: var(--black);
     font-size: 3rem;
     margin-bottom: 1rem;
-    padding: 0rem 1rem;
+    padding: 0rem 3rem;
 }
 .team__card h1{
     position: absolute;
-    bottom: 10px;
+    top: 3rem;
     color: var(--black);
     left: 25px;
     font-size: clamp(1rem, 2vw, 1.5rem);
