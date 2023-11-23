@@ -519,7 +519,8 @@ html,body
     height: 40vw;
     object-fit: cover;
     border-radius: 100px;
-    margin-bottom: -3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 .team__text{
     grid-row: 1/2;
@@ -552,8 +553,8 @@ html,body
         display: none;
     }
     .team__img{
-        width: 40vw;
-        height: 40vw;
+        width: 80vw;
+        height: 80vw;
         object-fit: cover;
         border-radius: 100px;
     }
