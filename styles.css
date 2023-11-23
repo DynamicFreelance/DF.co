@@ -327,7 +327,7 @@ html,body
     transition: 0.3s ease;
     text-decoration: none;
     border-radius: 4px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     cursor: none;
 }
 .button:hover{
