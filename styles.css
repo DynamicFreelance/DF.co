@@ -492,24 +492,22 @@ html,body
     margin-top: 1rem;
 }
 .team__card p{
-    position: absolute;
+    position: relative;
     color: var(--grey);
-    left: 25px;
     font-size: 3rem;
     margin-bottom: 1rem;
     padding: 0rem 1rem;
 }
 .team__card a{
-    position: absolute;
+    position: relative;
     color: var(--black);
-    left: 25px;
     font-size: 3rem;
     margin-bottom: 1rem;
     padding: 0rem 1rem;
 }
 .team__card h1{
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     color: var(--black);
     left: 25px;
     font-size: clamp(1rem, 2vw, 1.5rem);
