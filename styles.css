@@ -496,18 +496,18 @@ html,body
     bottom: 30px;
     color: var(--grey);
     left: 25px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .team__card a{
     position: absolute;
     bottom: 30px;
     color: var(--black);
     left: 25px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .team__card h1{
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     color: var(--black);
     left: 25px;
     font-size: clamp(1rem, 2vw, 1.5rem);
@@ -518,7 +518,7 @@ html,body
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 100;
 }
 .team__text{
     grid-row: 1/2;
@@ -560,7 +560,7 @@ html,body
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 50px;
+        border-radius: 100;
     }
 }
 
