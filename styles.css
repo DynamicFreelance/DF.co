@@ -515,8 +515,8 @@ html,body
     bottom:30px;
 }
 .team__img{
-    width: 550px;
-    height: 600px;
+    width: calc(90vh/1.5);
+    height: 90vh;
     object-fit: cover;
     border-radius: 100px;
     outline: var(--blue);
