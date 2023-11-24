@@ -344,6 +344,7 @@ html,body
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
+    margin-left:3rem;
 }
 .services__img{
     width: 340px;
@@ -363,6 +364,7 @@ html,body
     font-size: clamp(2rem, 6vw, 4rem);
     justify-content:center;
     align-items:center;
+    margin-left:3rem;
 }
 .services__features{
     list-style: none;
