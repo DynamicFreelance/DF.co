@@ -253,6 +253,18 @@ html,body
     align-items: center;
     scroll-snap-align: start;
 }
+.hosting{
+    background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
+    url('./images/Hosting.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-align: start;
+}
 @media screen and (max-width: 768px){
     .Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
@@ -280,6 +292,18 @@ html,body
 }
 .Games{
     background: linear-gradient(to right, rgba(128,0,128, 0.6), rgba(0,0,0, 0.2)),
+    url('./images/DF3.png');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.hosting{
+    background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
     height: 80vh;
     background-position: center;
