@@ -265,7 +265,7 @@ html,body
     align-items: center;
     scroll-snap-align: start;
 }
-.student{
+.Student{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/Student Discount.jpg');
     height: 100vh;
