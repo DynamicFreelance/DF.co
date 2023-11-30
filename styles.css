@@ -361,6 +361,7 @@ html,body
     justify-content:center;
     align-items:center;
     flex-direction: column;
+    text-align:center;
 }
 .button{
     padding: 1rem 3rem;
