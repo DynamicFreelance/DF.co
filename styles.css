@@ -222,7 +222,6 @@ html,body
     url('./images/Sales.jpg');
     height: 100vh;
     background-position: center;
-    background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
     justify-content: center;
@@ -280,17 +279,16 @@ html,body
 }
 
 @media screen and (max-width: 768px){
-    .Sales{
+.Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
     url('./images/DF3.png');
-    height: 80vh;
+     height: 80vh;
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    color: var(--white);
     scroll-snap-align: start;
 }
 .hero{
