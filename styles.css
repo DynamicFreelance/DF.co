@@ -871,22 +871,22 @@ input [type=text], select{
     animation-timeline: scroll();
 }
 .container #slider-img-1{
-  background-image: url("./images/D-Tech Logo.png");
+  background-image: url("./images/Review 1.png");
   background-position: center;
   background-size:cover;
 }
 .container #slider-img-2{
-  background-image: url("./images/Headshot C.JPG");
+  background-image: url("./images/Review 2.png");
   background-position: center;
   background-size:cover;\
 }
 .container #slider-img-3{
-  background-image: url("./images/D-Tech Logo.png");
+  background-image: url("./images/Review 3.png");
   background-position: center;
   background-size:cover;
 }
 .container #slider-img-4{
-  background-image: url("./images/Headshot A.JPG");
+  background-image: url("./images/Review 4.JPG");
   background-position: center;
   background-size:cover;
 }
