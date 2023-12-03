@@ -872,6 +872,7 @@ input [type=text], select{
 }
 .container #slider-img-1{
   background-image: url("./images/Review 1.png");
+    width:100%;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -882,6 +883,7 @@ input [type=text], select{
 }
 .container #slider-img-2{
   background-image: url("./images/Review 2.png");
+    width:100%;
    background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -892,6 +894,7 @@ input [type=text], select{
 }
 .container #slider-img-3{
   background-image: url("./images/Review 3.png");
+     width:100%;
    background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -901,7 +904,8 @@ input [type=text], select{
     scroll-snap-align: start;
 }
 .container #slider-img-4{
-  background-image: url("./images/Review 4.JPG");
+  background-image: url("./images/Review 4.png");
+     width:100%;
    background-position: center;
     background-repeat: no-repeat;
     padding: 0.5rem calc((100vw - 1200px) / 2);
