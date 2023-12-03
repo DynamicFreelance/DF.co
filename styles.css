@@ -872,23 +872,43 @@ input [type=text], select{
 }
 .container #slider-img-1{
   background-image: url("./images/Review 1.png");
-  background-position: center;
-  background-size:fit;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
 }
 .container #slider-img-2{
   background-image: url("./images/Review 2.png");
-  background-position: center;
-  background-size:cover;\
+   background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
 }
 .container #slider-img-3{
   background-image: url("./images/Review 3.png");
-  background-position: center;
-  background-size:cover;
+   background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
 }
 .container #slider-img-4{
   background-image: url("./images/Review 4.JPG");
-  background-position: center;
-  background-size:cover;
+   background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
 }
 .container .button-holder .review-button{
   background-color: rgb(0, 238, 255);
