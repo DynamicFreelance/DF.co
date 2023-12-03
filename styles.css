@@ -856,7 +856,7 @@ input [type=text], select{
   position:relative;
 }
 .container .wrapper{
-  width:80vh;
+  width:90vh;
   height:85vh;
   box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
   margin: 5rem auto;
@@ -873,7 +873,7 @@ input [type=text], select{
 .container #slider-img-1{
   background-image: url("./images/Review 1.png");
   background-position: center;
-  background-size:cover;
+  background-size:fit;
 }
 .container #slider-img-2{
   background-image: url("./images/Review 2.png");
