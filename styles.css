@@ -523,10 +523,6 @@ html,body
 .team__card{
     margin: 1rem;
     border-radius: 10px;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
     position: relative;
 }
 .team__text{
@@ -552,14 +548,18 @@ html,body
     margin-top: 1rem;
 }
 .team__card p{
+    position: absolute;
     font-size: 3rem;
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
+    bottom:30px;
 }
 .team__card a{
+    position: absolute;
     font-size: 3rem;
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
+    bottom:30px;
 }
 .team__card h1{
     position: absolute;
@@ -633,12 +633,14 @@ html,body
         margin-bottom: 0rem;
     }
     .team__card p{
-    color: var(--grey);
+    -webkit-text-fill-color: var(--blue);
+    -webkit-text-stroke: 3px;
     font-size: 3rem;
     left:35px;
     }
     .team__card a{
-    color: var(--black);
+    -webkit-text-fill-color: var(--blue);
+    -webkit-text-stroke: 3px;
     font-size: 3rem;
     left:45px;
     }
