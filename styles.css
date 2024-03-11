@@ -196,6 +196,7 @@ html,body
         z-index:100;
         background-color: var(--black);
         transition: all 0.2s ease-in-out;
+        text-align:center;
     }
     .navbar__link{
         padding:10px;
@@ -204,6 +205,7 @@ html,body
         felx-direction: column;
         align-items: center;
         justify-content: center;
+        text-align:center;
     }
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
