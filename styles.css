@@ -591,6 +591,17 @@ html,body
     outline-width: 0.4rem;
     outline-style: outset;
 }
+.team__img:hover{
+    margin-left: 5rem;
+    padding: 1rem;
+    width: calc((92vh)/1.35);
+    height: 92vh;
+    object-fit: cover;
+    border-radius: 100px;
+    outline: var(--blue);
+    outline-width: 0.6rem;
+    outline-style: outset;
+}
 .team__text{
     grid-row: 1/2;
     grid-column: 1/3;
