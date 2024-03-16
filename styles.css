@@ -347,6 +347,8 @@ html,body
     padding: 3rem 1rem;
     margin-top: 3rem;
     line-height: 1;
+    animation-duration: 1.5s;
+    animation-name: Slide;
 }
 .hero__content h1{
     font-size: clamp(3rem, 8vw, 7rem);
