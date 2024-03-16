@@ -380,6 +380,7 @@ html,body
 }
 .button:hover{
     background: var(--black);
+    padding: 1.5rem 3.5rem;
 }
 
 /* Services section */
