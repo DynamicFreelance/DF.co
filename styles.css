@@ -590,6 +590,7 @@ html,body
     outline: var(--blue);
     outline-width: 0.4rem;
     outline-style: outset;
+    transition: 0.4s ease;
 }
 .team__img:hover{
     margin-left: 5rem;
