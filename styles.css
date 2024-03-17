@@ -907,7 +907,7 @@ input [type=text], select{
     animation-timeline: scroll();
 }
 .container #slider-img-1{
-  background-image: url("./images/Review 1.png");
+  background-image: url("./images/Review 1.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
