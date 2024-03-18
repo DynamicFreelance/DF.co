@@ -453,7 +453,7 @@ html,body
     padding: 0rem 1rem;
 }
 .Marketing__desc{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-size: clamp(1rem, 3vw, 1.5rem);
     padding: 1rem;
 }
