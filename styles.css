@@ -962,9 +962,11 @@ input [type=text], select{
   box-shadow:0px 0px 7px 4px rgba(0, 238, 255,0.6);
 }
 .container .button-holder{
-  position:absolute;
-  left:47vw;
-  bottom:0%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    bottom: 5%;
+    gap: 0.5rem;
 }
 @media screen and (max-width: 820px) {
     .reviews__img{
@@ -977,9 +979,11 @@ input [type=text], select{
         margin: 5rem auto;
      }
     .container .button-holder{
-      position:absolute;
-      left:35vw;
-      bottom:0%;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        bottom: 5%;
+        gap: 0.5rem;
     }
 }
 .buttonCenter{
