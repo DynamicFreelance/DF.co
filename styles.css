@@ -994,3 +994,9 @@ input [type=text], select{
     align-items:center;
     justify-content:center;
 }
+.reviews{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    position: relative;
+}
