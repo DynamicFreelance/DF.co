@@ -965,7 +965,8 @@ input [type=text], select{
     display: flex;
     justify-content:center;
     align-items:center;
-    bottom: 5%;
+    margin-bottom: 5%;
+    margin-top:-1%;
     gap: 0.5rem;
 }
 @media screen and (max-width: 820px) {
@@ -982,7 +983,8 @@ input [type=text], select{
         display: flex;
         justify-content:center;
         align-items:center;
-        bottom: 5%;
+        margin-bottom: 5%;
+        margin-top:-1%;
         gap: 0.5rem;
     }
 }
