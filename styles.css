@@ -591,6 +591,7 @@ html,body
     padding: 3rem 1rem;
     margin-bottom: 1rem;
     box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
+    border-radius:2rem;
 }
 .team__text h1{
     margin-top: 2rem;
