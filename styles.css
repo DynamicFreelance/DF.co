@@ -442,18 +442,21 @@ html,body
 }
 /* Marketin Teir Section */
 .Marketing{
-    background: var(--black);
-    color: var(--white);
+    background: black;
+    color: white;
     padding: 2rem calc((100vw - 1700px)/2);
     text-align: center;
+    position: relative;
+    height: auto;
 }
 .Marketing h1{
     margin-bottom: 1rem;
+    margin-top: 6rem;
     font-size: clamp(2rem, 5vw, 3rem);
     padding: 0rem 1rem;
 }
 .Marketing__desc{
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     font-size: clamp(1rem, 3vw, 1.5rem);
     padding: 1rem;
 }
@@ -462,17 +465,19 @@ html,body
     justify-content: space-between;
     align-items: flex-start;
     padding: 1rem;
+    height: auto;
 }
 .Marketing__card{
     padding: 2rem;
     min-height: 450px;
     width: 325px;
-    background: var(--white);
-    color: var(--black);
+    background: white;
+    color: black;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 6rem;
 }
 .Marketing__perks{
     min-height: 150px;
@@ -491,9 +496,52 @@ html,body
     }
     .Marketing__card{
         width: 90%;
-        margin-bottom: 2rem;
+        margin-bottom: 6rem;
+        margin-top:-2rem;
     }
 }
+.custom-shape-divider-top-1710961076 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-bottom: 1rem;
+}
+
+.custom-shape-divider-top-1710961076 svg {
+    position: relative;
+    display: block;
+    width: calc(180% + 1.3px);
+    height: 179px;
+}
+
+.custom-shape-divider-top-1710961076 .shape-fill {
+    fill: #FFFFFF;
+}
+.custom-shape-divider-bottom-1710960945 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: 2rem;
+}
+
+.custom-shape-divider-bottom-1710960945 svg {
+    position: relative;
+    display: block;
+    width: calc(180% + 1.3px);
+    height: 179px;
+}
+
+.custom-shape-divider-bottom-1710960945 .shape-fill {
+    fill: #FFFFFF;
+}
+
 /*thanks section*/
 .thanks__heading h1{
     margin-bottom: 1rem;
