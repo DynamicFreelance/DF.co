@@ -87,21 +87,25 @@ html,body
     display: flex;
     justify-content:center;
     align-items:center;
+    position:relative;
 }
 .text__content{
-     background: black;
+    position:absolute;
+    background: black;
     display: flex;
     justify-content:center;
     align-items:center;
     color:white;
     text-align:center;
-    animation: sideways 5s infinite;
+    text-wrap: nowrap;
+    animation: Sideways 5s infinite;
 }
 .text__content h1{
     font-size: 1rem;
     font-weight:bold;
+    text-wrap: nowrap;
 }
-@keyframes sideways {
+@keyframes Sideways {
     0%{
         left:0;
     }
