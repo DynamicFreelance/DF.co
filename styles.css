@@ -84,7 +84,7 @@ html,body
         right:0%;
     }
     to{
-        right:200%;
+        right:195%;
     }
 }
 .slider{
@@ -101,7 +101,7 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 30s linear infinite;
+    animation: Sideways 30s infinite;
 }
 .slide__track:hover{
     animation: paused;
