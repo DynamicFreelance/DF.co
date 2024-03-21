@@ -101,9 +101,9 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 30s infinite;
+    animation: Sideways 30s linear infinite;
 }
-.slide__track .slide:hover{
+.slide__track:hover{
     animation: paused;
 }
 .slide{
