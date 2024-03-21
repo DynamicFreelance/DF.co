@@ -78,7 +78,7 @@ html,body
     overflow-x: hidden;
     overflow-y: scroll;
 }
-@keyframes sideways{
+@keyframes Sideways{
     0%{
         transform: translateX(0);
     }
@@ -95,7 +95,7 @@ html,body
     width:auto;
 }
 .slider .slider__track{
-    animation: sideways 40s linear infinite;
+    animation: Sideways 5s linear infinite;
     display:flex;
     width:calc(250px * 14);
 }
