@@ -95,7 +95,6 @@ html,body
     width: auto;
 }
 .slide__track{
-    height:40px;
     background: black;
     padding: 1rem;
     position: absolute;
@@ -104,7 +103,7 @@ html,body
     align-items:center;
     animation: Sideways 30s infinite;
 }
-.slider .slide__track{
+.slide__track .slide:hover{
     animation: paused;
 }
 .slide{
