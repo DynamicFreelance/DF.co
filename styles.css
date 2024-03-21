@@ -102,10 +102,12 @@ html,body
     justify-content:center;
     align-items:center;
     transition: all 0.2s ease-in-out;
-    animation: Sideways 30s linear infinite;
+    animation: Sideways 30s infinite;
 }
-.slider .slide__track:hover{
-    animation: paused;
+.slider:hover{
+    .slider .slide__track{
+        animation: paused;
+    }
 }
 .slide{
     background: black;
