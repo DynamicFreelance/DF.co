@@ -81,10 +81,10 @@ html,body
 
 @keyframes Sideways{
     from{
-        left:100vw;
+        left:50vw;
     }
     to{
-        left:-100vw;
+        left:-200vw;
     }
 }
 .slider{
