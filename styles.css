@@ -95,14 +95,16 @@ html,body
     width: auto;
 }
 .slide__track{
+    background: blue;
     padding: 1rem;
     position: absolute;
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 5s linear infinite;
+    animation: Sideways 10s linear infinite;
 }
 .slide{
+    background: red;
     width: auto;
     height:60px;
     display:flex;
