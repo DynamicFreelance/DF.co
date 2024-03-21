@@ -104,7 +104,7 @@ html,body
     transition: all 0.2s ease-in-out;
     animation: Sideways 30s linear infinite;
 }
-.slide__track:hover{
+.slider .slide__track:hover{
     animation: paused;
 }
 .slide{
