@@ -84,7 +84,7 @@ html,body
         left:0%;
     }
     to{
-        left:-230%;
+        left:-200%;
     }
 }
 .slider{
@@ -111,14 +111,14 @@ html,body
 }
 .slide{
     background: black;
-    width:100vw;
+    width:50rem;;
     height:60px;
     display:flex;
     justify-content:center;
     align-items:center;
     text-wrap: nowrap;
     text-align:center;
-    margin: 0.5rem 10vw;
+    margin: 0.5rem 20rem;
 }
 .slide h1{
     color: white;
