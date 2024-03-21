@@ -102,7 +102,7 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 10s linear infinite;
+    animation: Sideways 40s linear infinite;
 }
 .slide{
     background: black;
