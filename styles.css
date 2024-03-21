@@ -101,10 +101,7 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 15s infinite;
-}
-.slide__track:hover{
-    animation: paused;
+    animation: Sideways 30s infinite;
 }
 .slide{
     background: black;
