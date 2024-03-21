@@ -104,14 +104,14 @@ html,body
 }
 .slide{
     background: black;
-    width:50vw;;
+    width:50rem;
     height:40px;
     display:flex;
     justify-content:center;
     align-items:center;
     text-wrap: nowrap;
     text-align:center;
-    margin: 0.5rem 5vw;
+    margin: 0.5rem 10vw;
 }
 .slide h1{
     color: white;
