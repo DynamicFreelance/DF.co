@@ -84,7 +84,7 @@ html,body
         left:100;
     }
     100%{
-        left:-100;
+        left:-200;
     }
 }
 .slider{
@@ -101,7 +101,7 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 30s infinite;
+    animation: Sideways 40s infinite;
     overflow: hidden;
 }
 .slide{
