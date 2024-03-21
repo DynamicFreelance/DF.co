@@ -81,10 +81,10 @@ html,body
 
 @keyframes Sideways{
     from{
-        left:50vw;
+        left:60vw;
     }
     to{
-        left:-200vw;
+        left:-110vw;
     }
 }
 .slider{
@@ -97,7 +97,6 @@ html,body
 .slide__track{
     background: black;
     padding: 1rem;
-    position: absolute;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -105,14 +104,14 @@ html,body
 }
 .slide{
     background: black;
-    width:50rem;;
+    width:50vw;;
     height:40px;
     display:flex;
     justify-content:center;
     align-items:center;
     text-wrap: nowrap;
     text-align:center;
-    margin: 0.5rem 5rem;
+    margin: 0.5rem 5vw;
 }
 .slide h1{
     color: white;
