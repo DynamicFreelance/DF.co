@@ -84,7 +84,7 @@ html,body
         left:0%;
     }
     to{
-        left:-300%;
+        left:-250%;
     }
 }
 .slider{
@@ -93,7 +93,6 @@ html,body
     display:flex;
     height: 60px;
     width: auto;
-    text-wrap: nowrap;
 }
 .slide__track{
     background: black;
@@ -102,12 +101,10 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    text-wrap: nowrap;
     animation: Sideways 10s linear infinite;
 }
 .slide{
     background: black;
-    width: auto;
     height:60px;
     display:flex;
     justify-content:center;
