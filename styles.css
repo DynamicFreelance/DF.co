@@ -102,6 +102,7 @@ html,body
     justify-content:center;
     align-items:center;
     animation: Sideways 30s infinite;
+    overflow: hidden;
 }
 .slide{
     background: black;
@@ -112,7 +113,8 @@ html,body
     align-items:center;
     text-wrap: nowrap;
     text-align:center;
-    margin: 0.5rem 10vw;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 .slide h1{
     color: white;
