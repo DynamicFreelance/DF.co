@@ -95,24 +95,22 @@ html,body
     width: auto;
 }
 .slide__track{
+    height:40px;
     background: black;
     padding: 1rem;
     position: absolute;
     display:flex;
     justify-content:center;
     align-items:center;
-    transition: all 0.2s ease-in-out;
     animation: Sideways 30s infinite;
 }
-.slider:hover{
-    .slider .slide__track{
-        animation: paused;
-    }
+.slider .slide__track{
+    animation: paused;
 }
 .slide{
     background: black;
     width:50rem;;
-    height:60px;
+    height:40px;
     display:flex;
     justify-content:center;
     align-items:center;
