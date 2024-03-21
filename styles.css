@@ -81,10 +81,10 @@ html,body
 
 @keyframes Sideways{
     from{
-        margin-right: 0%;
+        left:0%;
     }
     to{
-        margin-right: 100%;
+        left:100%;
     }
 }
 .slider{
@@ -96,10 +96,11 @@ html,body
 }
 .slide__track{
     padding: 1rem;
+    position: absolute;
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 30s linear infinite;
+    animation: Sideways 5s linear infinite;
 }
 .slide{
     width: auto;
