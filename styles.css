@@ -84,7 +84,7 @@ html,body
         left:0%;
     }
     to{
-        left:-195%;
+        left:-100%;
     }
 }
 .slider{
@@ -115,7 +115,7 @@ html,body
     align-items:center;
     text-wrap: nowrap;
     text-align:center;
-    margin: 0.5rem 20rem;
+    margin: 0.5rem 5rem;
 }
 .slide h1{
     color: white;
