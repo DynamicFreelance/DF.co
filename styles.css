@@ -79,41 +79,6 @@ html,body
     overflow-y: scroll;
 }
 
-.text__slider{
-    background: black;
-    height: 60px;
-    padding: 0.5rem calc((50vw - 1600px) / 2);
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    position:relative;
-    text-wrap: nowrap;
-}
-.text__content{
-    height: 60px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    color:white;
-    text-align:center;
-    text-wrap: nowrap;
-    animation: Sideways 30s infinite;
-}
-.text__content h1{
-    font-size: 1rem;
-    font-weight:bold;
-    text-wrap: nowrap;
-    margin: 1rem 50vw;
-    overflow-x: hidden;
-}
-@keyframes Sideways {
-    from{
-        left:0%;
-    }
-    to{
-        left:-100%;
-    }
-}
 /* navbar section */
 .navbar{
     background: var(--black);
