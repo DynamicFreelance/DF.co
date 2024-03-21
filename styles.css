@@ -80,10 +80,10 @@ html,body
 }
 
 @keyframes Sideways{
-    from{
+    0%{
         left:60vw;
     }
-    to{
+    100%{
         left:-110vw;
     }
 }
@@ -95,6 +95,7 @@ html,body
     width: auto;
 }
 .slide__track{
+    position: absolute;
     background: black;
     padding: 1rem;
     display:flex;
