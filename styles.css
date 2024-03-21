@@ -84,7 +84,7 @@ html,body
         left:0%;
     }
     to{
-        left:-280%;
+        left:-220%;
     }
 }
 .slider{
@@ -118,7 +118,7 @@ html,body
     color: white;
     font-size: 1rem;
     text-wrap: nowrap;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* navbar section */
