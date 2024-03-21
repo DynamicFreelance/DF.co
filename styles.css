@@ -90,14 +90,13 @@ html,body
     text-wrap: nowrap;
 }
 .text__content{
-    background: black;
+    height: 60px;
     display: flex;
     justify-content:center;
     align-items:center;
     color:white;
     text-align:center;
     text-wrap: nowrap;
-    overflow-x: hidden;
     animation: Sideways 30s infinite;
 }
 .text__content h1{
