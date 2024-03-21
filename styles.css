@@ -81,10 +81,10 @@ html,body
 
 @keyframes Sideways{
     from{
-        left:50%;
+        left:0;
     }
     to{
-        left:-50%;
+        left:-100%;
     }
 }
 .slider{
@@ -101,7 +101,7 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
-    animation: Sideways 30s infinite;
+    animation: Sideways 15s infinite;
 }
 .slide__track:hover{
     animation: paused;
