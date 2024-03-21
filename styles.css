@@ -91,7 +91,7 @@ html,body
     background: black;
     position: relative;
     display:flex;
-    height: 60px;
+    height: 40px;
     width: auto;
 }
 .slide__track{
