@@ -90,7 +90,6 @@ html,body
     text-wrap: nowrap;
 }
 .text__content{
-    position:absolute;
     background: black;
     display: flex;
     justify-content:center;
@@ -98,6 +97,7 @@ html,body
     color:white;
     text-align:center;
     text-wrap: nowrap;
+    overflow-x: hidden;
     animation: Sideways 30s infinite;
 }
 .text__content h1{
@@ -109,10 +109,10 @@ html,body
 }
 @keyframes Sideways {
     from{
-        left:0;
+        left:0%;
     }
     to{
-        left:-100;
+        left:-100%;
     }
 }
 /* navbar section */
