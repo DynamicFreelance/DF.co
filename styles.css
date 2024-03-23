@@ -802,8 +802,7 @@ html,body
     text-align: center;
     margin-bottom: 1rem;
     font-size: clamp(1rem, 5vw, 3rem);
-    padding
-    : 0 1rem;
+    padding: 0 1rem;
 }
 .email__content p{
     text-align: center;
@@ -812,7 +811,7 @@ html,body
     margin-bottom: 2rem;
 }
 form{
-    z-index: 10;
+    z-index: 1;
 }
 .form__wrap input{
     padding: 1rem 1.5rem;
