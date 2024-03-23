@@ -75,8 +75,7 @@ html,body
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-x: clip;
 }
 
 @keyframes Sideways{
@@ -132,7 +131,9 @@ html,body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: sticky;
+    top:0px;
+    z-index:2;
     width: 100%;
 }
 .navbar__logo{
