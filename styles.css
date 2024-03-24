@@ -717,7 +717,7 @@ html,body
     object-fit: cover;
     border-radius: 100px;
     outline: var(--blue);
-    outline-width: 0.6rem;
+    outline-width: 0.8rem;
     outline-style: outset;
 }
 .team__text{
