@@ -443,7 +443,6 @@ html,body
 
 /* Services section */
 .offer{
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
