@@ -447,6 +447,8 @@ html,body
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+    position: sticky;
+    top: 60px;
 }
 .offer__container{
     display: flex;
@@ -454,8 +456,6 @@ html,body
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: sticky;
-    top: 60px;
     padding:1rem;
 }
 .offer__container p{
