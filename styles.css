@@ -465,7 +465,7 @@ html,body
     color: black;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
-    padding: 1rem;
+    padding: 1rem 4rem;
 }
 .services{
     animation-duration: 1.5s;
@@ -516,6 +516,13 @@ html,body
     .services__heading{
         margin-left:0rem;
     }
+    .offer__container p{
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    color: black;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
 }
 /* Marketin Teir Section */
 .Marketing{
