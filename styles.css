@@ -693,6 +693,8 @@ html,body
     bottom:30px;
     padding:1rem;
     margin-right:3rem;
+    background: rgba(0, 238, 255, 0.2);
+    border-radius: 2rem;
 }
 .team__img{
     margin-left: 5rem;
