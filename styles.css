@@ -475,6 +475,7 @@ html,body
     justify-content:center;
     align-items:center;
     margin-left:3rem;
+    margin-top: 2rem;
 }
 .services__features{
     list-style: none;
