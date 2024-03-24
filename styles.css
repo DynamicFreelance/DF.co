@@ -413,12 +413,12 @@ html,body
     margin-bottom: 3rem; 
 }
 .website__message{
-    position:relative;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction: column;
     text-align:center;
+    z-index: 1;
 }
 .button{
     padding: 1rem 3rem;
@@ -458,7 +458,7 @@ html,body
     padding:1rem;
 }
 .offer__container p{
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
     color: black;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
