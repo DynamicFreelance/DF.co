@@ -408,6 +408,7 @@ html,body
     font-size: clamp(3.3rem, 8vw, 7.3rem);
     text-transform: uppercase;
     margin-bottom: 1rem; 
+    -webkit-text-stroke: 2px var(--blue);
 }
 .hero__content p{
     font-size: clamp(1rem, 4vw, 2.5rem);
