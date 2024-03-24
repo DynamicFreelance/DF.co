@@ -471,6 +471,7 @@ html,body
     animation-name: Slide;
     padding: 1rem;
     z-index: 1;
+    background: white;
 }
 .services__Container{
     display: grid;
@@ -648,6 +649,7 @@ html,body
     animation-name: Slide;
     padding: 1rem;
     z-index: 1;
+    background: white;
 }
 .team__wrapper{
     display: grid;
@@ -891,6 +893,7 @@ span{
     grid-template-columns: repeat(2, 1fr);
     color: var(--white);
     background: var(--black);
+    z-index:1;
 }
 .footer__desc{
     padding: 0 2rem;
