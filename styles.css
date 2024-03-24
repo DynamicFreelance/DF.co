@@ -779,7 +779,7 @@ html,body
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
     font-size: 3rem;
-    left:35px;
+    left:30px;
     padding: 1rem;
     background: rgba(0, 238, 255, 0.2);
     border-radius: 2rem;
@@ -788,7 +788,7 @@ html,body
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
     font-size: 3rem;
-    left:45px;
+    left:40px;
     padding: 1rem;
     background: rgba(0, 238, 255, 0.2);
     border-radius: 2rem;
