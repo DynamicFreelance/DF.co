@@ -675,6 +675,9 @@ html,body
     -webkit-text-stroke: 3px;
     bottom:30px;
     left:165px;
+    padding: 1rem;
+    background: rgba(0, 238, 255, 0.2);
+    border-radius: 2rem;
 }
 .team__card a{
     position: absolute;
@@ -683,6 +686,9 @@ html,body
     -webkit-text-stroke: 3px;
     bottom:30px;
     left:160px;
+    padding: 1rem;
+    background: rgba(0, 238, 255, 0.2);
+    border-radius: 2rem;
 }
 .team__card h1{
     position: absolute;
@@ -774,12 +780,18 @@ html,body
     -webkit-text-stroke: 3px;
     font-size: 3rem;
     left:35px;
+    padding: 1rem;
+    background: rgba(0, 238, 255, 0.2);
+    border-radius: 2rem;
     }
     .team__card a{
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
     font-size: 3rem;
     left:45px;
+    padding: 1rem;
+    background: rgba(0, 238, 255, 0.2);
+    border-radius: 2rem;
     }
     .team__card{
         display:flex;
