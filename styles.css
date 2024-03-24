@@ -441,7 +441,6 @@ html,body
 
 /* Services section */
 .offer{
-    height: 100vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -449,7 +448,6 @@ html,body
     justify-content: center;
     position: sticky;
     top: 60px;
-    z-index: auto;
 }
 .offer__container{
     display: flex;
@@ -460,7 +458,7 @@ html,body
     padding:1rem;
 }
 .offer__container p{
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: black;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
