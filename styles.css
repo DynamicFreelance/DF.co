@@ -442,34 +442,6 @@ html,body
 }
 
 /* Services section */
-.offer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    background: white;
-    z-index:1;
-}
-.offer__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding:1rem;
-    background: black;
-}
-.offer__container p{
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    color: white;
-    margin-bottom: 2rem;
-    margin-top: 0.5rem;
-    padding: 1rem 4rem;
-}
-.offer__container: nth-child(4){
-    margin-bottom: 4rem;
-}
 .services{
     animation-duration: 1.5s;
     animation-name: Slide;
@@ -518,16 +490,6 @@ html,body
     }
     .services__heading{
         margin-left:0rem;
-    }
-    .offer__container p{
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    color: white;
-    margin-bottom: 2rem;
-    margin-top: 0.5rem;
-    padding: 1rem;
-    }
-    .offer__container: nth-child(4){
-    margin-bottom: 4rem;
     }
 }
 /* Marketin Teir Section */
