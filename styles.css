@@ -29,6 +29,7 @@
 }
 body{
     cursor: none;
+    background: white;
 }
 .pointer1{
    transition: 0.05s;
@@ -419,6 +420,7 @@ html,body
     flex-direction: column;
     text-align:center;
     z-index: 1;
+    background: white;
 }
 .button{
     padding: 1rem 3rem;
@@ -448,6 +450,7 @@ html,body
     justify-content: center;
     margin-bottom: 1rem;
     position: sticky;
+    background: white;
     top: 60px;
     z-index:0;
 }
@@ -478,6 +481,7 @@ html,body
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
     margin-left:3rem;
+    background: white;
 }
 .services__img{
     width: 340px;
@@ -669,6 +673,8 @@ html,body
     margin-bottom: 1rem;
     box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
     border-radius:2rem;
+    z-index: 1;
+    background: white;
 }
 .team__text h1{
     margin-top: 2rem;
