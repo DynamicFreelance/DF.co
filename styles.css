@@ -449,6 +449,7 @@ html,body
     margin-bottom: 1rem;
     position: sticky;
     top: 60px;
+    z-index:0;
 }
 .offer__container{
     display: flex;
