@@ -459,10 +459,11 @@ html,body
     justify-content: center;
     text-align: center;
     padding:1rem;
+    background: black;
 }
 .offer__container p{
     font-size: clamp(1rem, 4vw, 1.5rem);
-    color: black;
+    color: white;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
     padding: 1rem 4rem;
