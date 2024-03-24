@@ -446,8 +446,7 @@ html,body
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: sticky;
-    top: 60px;
+    margin-bottom: 1rem;
 }
 .offer__container{
     display: flex;
@@ -455,6 +454,8 @@ html,body
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: sticky;
+    top: 60px;
     padding:1rem;
 }
 .offer__container p{
@@ -511,14 +512,6 @@ html,body
     .services__heading{
         margin-left:0rem;
     }
-    .offer__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding:1rem;
-}
 }
 /* Marketin Teir Section */
 .Marketing{
