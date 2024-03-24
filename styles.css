@@ -674,7 +674,7 @@ html,body
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
     bottom:30px;
-    left:165px;
+    left:167px;
 }
 .team__card a{
     position: absolute;
@@ -682,7 +682,7 @@ html,body
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
     bottom:30px;
-    left:160px;
+    left:162px;
 }
 .team__card h1{
     position: absolute;
@@ -773,13 +773,13 @@ html,body
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
     font-size: 3rem;
-    left:30px;
+    left:32px;
     }
     .team__card a{
     -webkit-text-fill-color: var(--blue);
     -webkit-text-stroke: 3px;
     font-size: 3rem;
-    left:40px;
+    left:42px;
     }
     .team__card{
         display:flex;
