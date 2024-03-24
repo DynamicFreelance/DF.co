@@ -447,7 +447,7 @@ html,body
     align-items: center;
     justify-content: center;
     position: sticky;
-    top: 0px;
+    top: 60px;
     z-index: auto;
 }
 .offer__container{
