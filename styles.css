@@ -521,11 +521,14 @@ html,body
     }
     .offer__container p{
     font-size: clamp(1rem, 4vw, 1.5rem);
-    color: black;
+    color: white;
     margin-bottom: 2rem;
     margin-top: 0.5rem;
     padding: 1rem;
-}
+    }
+    .offer__container: nth-child(4){
+    margin-bottom: 4rem;
+    }
 }
 /* Marketin Teir Section */
 .Marketing{
