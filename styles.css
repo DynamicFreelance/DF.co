@@ -467,6 +467,9 @@ html,body
     margin-top: 0.5rem;
     padding: 1rem 4rem;
 }
+.offer__container: nth-child(4){
+    margin-bottom: 4rem;
+}
 .services{
     animation-duration: 1.5s;
     animation-name: Slide;
