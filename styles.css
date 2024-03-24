@@ -439,7 +439,8 @@ html,body
     background: var(--black);
     padding: 1.2rem 3.2rem;
     font-size: 1.5rem;
-    border: 2px var(--blue);
+    border: 3px var(--blue);
+    outline: outset;
 }
 
 /* Services section */
