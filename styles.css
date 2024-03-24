@@ -14,7 +14,7 @@
 }
 .pointer{
     position: absolute;
-    z-index: 3;
+    z-index: 4;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -133,7 +133,7 @@ html,body
     align-items: center;
     position: sticky;
     top:0px;
-    z-index:2;
+    z-index:3;
     width: 100%;
 }
 .navbar__logo{
@@ -446,6 +446,9 @@ html,body
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: auto;
 }
 .offer__container{
     display: flex;
@@ -453,7 +456,7 @@ html,body
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding:1rem;
+    padding:1rem 5rem;
 }
 .offer__container p{
     font-size: 1rem;
@@ -465,6 +468,7 @@ html,body
     animation-duration: 1.5s;
     animation-name: Slide;
     padding: 1rem;
+    z-index: 1;
 }
 .services__Container{
     display: grid;
@@ -507,6 +511,14 @@ html,body
     .services__heading{
         margin-left:0rem;
     }
+    .offer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:1rem;
+}
 }
 /* Marketin Teir Section */
 .Marketing{
@@ -516,6 +528,7 @@ html,body
     text-align: center;
     position: relative;
     height: auto;
+    z-index: 1;
 }
 .Marketing h1{
     margin-bottom: 1rem;
@@ -640,6 +653,7 @@ html,body
     animation-duration: 1.5s;
     animation-name: Slide;
     padding: 1rem;
+    z-index: 1;
 }
 .team__wrapper{
     display: grid;
@@ -811,6 +825,7 @@ html,body
     outline: var(--blue);
     outline-width: 0.4rem;
     outline-style: outset;
+    z-index: 1;
 }
 .email__content{
     animation-duration: 1.5s;
@@ -832,7 +847,7 @@ html,body
     margin-bottom: 2rem;
 }
 form{
-    z-index: 1;
+    z-index: 2;
 }
 .form__wrap input{
     padding: 1rem 1.5rem;
