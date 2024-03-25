@@ -1116,4 +1116,25 @@ input [type=text], select{
 .3d__box{
     width: 100vw;
     padding:1rem;
+    display: block;
 }
+.3d__boxmobile{
+    width: 100vw;
+    height:100vh;
+    padding:1rem;
+    display: none;
+}
+@media screen and (max-width: 880px){
+    .3d__box{
+        width: 100vw;
+        padding:1rem;
+        display: none;
+    }
+    .3d__boxmobile{
+        width: 100vw;
+        height:100vh;
+        padding:1rem;
+        display: block;
+    }
+}
+    
