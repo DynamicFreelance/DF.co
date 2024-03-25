@@ -1113,8 +1113,3 @@ input [type=text], select{
     margin-top:1rem;
     position: relative;
 }
-.spline-viewer{
-    width:100vw;
-    padding: 1rem;
-}
-    
