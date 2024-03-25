@@ -1021,7 +1021,7 @@ input [type=text], select{
     animation-timeline: scroll();
 }
 .container #slider-img-1{
-  background-image: url("./images/Review 1.jpg");
+  background-image: url("./images/Review 2.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1032,7 +1032,7 @@ input [type=text], select{
     scroll-snap-align: start;
 }
 .container #slider-img-2{
-  background-image: url("./images/Review 2.png");
+  background-image: url("./images/Review 1.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
