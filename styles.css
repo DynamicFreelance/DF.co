@@ -1113,3 +1113,7 @@ input [type=text], select{
     margin-top:1rem;
     position: relative;
 }
+.3d__box{
+    width: 100vw;
+    padding:1rem;
+}
