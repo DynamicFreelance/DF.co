@@ -163,6 +163,7 @@ html,body
         height: 40px;
         padding: 0.5rem calc((50vw - 1600px) / 2);
         display: flex;
+        margin: 1rem;
         justify-content: space-between;
         align-items: center;
         position: sticky;
@@ -171,6 +172,7 @@ html,body
         width: 100%;
     }
     .nav__bottom h1{
+        background: rgba(0,0,0,0);
         font-size: 0.7rem;
         color: white;
         padding: 1rem;
