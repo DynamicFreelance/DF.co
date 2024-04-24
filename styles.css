@@ -631,6 +631,11 @@ html,body
     padding:2rem 3rem;
     margin: 1rem 2rem;
 }
+@media screen and (max-width: 800px){
+    .GameShowcase{
+        display: none;
+    }
+}
 /*thanks section*/
 .thanks__heading h1{
     margin-bottom: 1rem;
