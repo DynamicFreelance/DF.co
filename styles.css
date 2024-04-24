@@ -137,6 +137,23 @@ html,body
     z-index:3;
     width: 100%;
 }
+.nav__bottom{
+    background: var(--blue);
+    height: 50px;
+    padding: 0.5rem calc((50vw - 1600px) / 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:60px;
+    z-index:3;
+    width: 100%;
+}
+.nav__bottom h1{
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 1rem;
+}
 .navbar__logo{
     color: var(--blue);
     text-decoration: none;
