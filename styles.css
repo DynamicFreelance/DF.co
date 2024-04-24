@@ -163,7 +163,6 @@ html,body
         height: 40px;
         padding: 0.5rem calc((50vw - 1600px) / 2);
         display: flex;
-        margin: 1rem;
         justify-content: space-between;
         align-items: center;
         position: sticky;
