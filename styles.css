@@ -138,6 +138,7 @@ html,body
     width: 100%;
 }
 .nav__bottom{
+    background: rgba(0,0,0,0);
     height: 40px;
     padding: 0.5rem calc((50vw - 1600px) / 2);
     display: flex;
@@ -156,6 +157,18 @@ html,body
     padding: 1rem;
 }
 @media screen and (max-width: 800px){
+    .nav__bottom{
+        background: var(--blue);
+        height: 40px;
+        padding: 0.5rem calc((50vw - 1600px) / 2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top:0px;
+        z-index:1;
+        width: 100%;
+    }
     .nav__bottom h1{
         font-size: 0.7rem;
         color: white;
