@@ -144,8 +144,9 @@ html,body
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    margin-bottom: -40px;
     top:0px;
-    z-index:3;
+    z-index:1;
     width: 100%;
 }
 .nav__bottom h1{
