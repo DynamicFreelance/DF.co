@@ -630,6 +630,7 @@ html,body
     align-items:center;
     padding:2rem 3rem;
     margin: 1rem 2rem;
+    flex-direction:column;
 }
 @media screen and (max-width: 800px){
     .GameShowcase{
