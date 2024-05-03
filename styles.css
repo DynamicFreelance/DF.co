@@ -167,7 +167,14 @@ ul li ul.dropdown li {
 ul li:hover ul.dropdown {
     display: block;
 }
-    
+ul{
+    list-style:none;
+    background:var(--black);
+}
+ul li{
+    display: inline-block;
+    position:relative;
+}
 @media screen and (max-width: 800px){
     .nav__bottom h1{
         font-size: 0.7rem;
