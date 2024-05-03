@@ -181,21 +181,22 @@ html,body
 }
 .dropdown {
     position: relative;
-    display:inline-block;
+    display: inline-block;
 }
 .dropdown-content {
   display: none;
   position: absolute;
-  justify-content:center;
-  align-items:center;
   background-color: black;
-  width: 20rem; 
-  padding: 1rem 1rem;
-  z-index: 2;
-  text-align:center;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
 }
 .dropdown:hover .dropdown-content {
-    display: flex;
+    display: block;
 }
 .open-menu, .close-menu{
     position: absolute;
