@@ -193,6 +193,15 @@ html,body
   z-index: 1;
   text-align:center;
 }
+.dropdown-content a{
+    color: var(--blue);
+    text-decoration: none;
+    cursor: none;
+    margin: 3rem 0rem;
+}
+.dropdown-content a:hover{
+    color:white;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -288,6 +297,15 @@ html,body
         text-align:center;
     }
     .navbar__link{
+        padding:10px;
+        margin:40px;
+        display: flex;
+        felx-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+    }
+    .dropdown-content a{
         padding:10px;
         margin:40px;
         display: flex;
