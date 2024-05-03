@@ -183,8 +183,8 @@ html,body
     display:none;
     background: var(--black);
 }
-.navbar__link:hover, .dropdown{
-    display:block;
+.navbar__link.dropdown:hover{
+    display: inline-block;
 }
 .open-menu, .close-menu{
     position: absolute;
