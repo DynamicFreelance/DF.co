@@ -179,7 +179,7 @@ html,body
 .navbar__link:hover{
     color: var(--white);
 }
-.dropdown{
+navbar__link.dropdown{
     display:none;
     background: var(--black);
 }
