@@ -572,6 +572,11 @@ html,body
     font-size: clamp(1rem, 5vw, 2rem);
     margin-bottom: 2rem;
 }
+.Marketing__card h4{
+    font-size: clamp(1rem, 5vw, 2rem);
+    margin-bottom: 2rem;
+    color: var(--blue);
+}
 @media screen and (max-width: 1400px){
     .Marketing__wrapper{
         flex-direction: column;
