@@ -182,11 +182,7 @@ html,body
 }
 .dropdown {
     position: relative;
-    display: flex;
-    flex-direction:columns;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
+    display:inline-block;
 }
 .dropdown-content {
   display: none;
