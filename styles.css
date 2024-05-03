@@ -180,13 +180,10 @@ html,body
     color: var(--white);
 }
 .dropdown{
-    display:inline-block;
+    display:none;
     background: var(--black);
 }
-.navbar__link .dropdown{
-    display:none;
-}
-.navbar__link:hover .dropdown{
+.navbar__link:hover, .dropdown{
     display:block;
 }
 .open-menu, .close-menu{
