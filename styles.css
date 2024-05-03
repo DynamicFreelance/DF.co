@@ -199,7 +199,7 @@ html,body
     cursor: none;
     margin: 2rem 1rem;
 }
-.dropdown-content a:hover{
+.dropdown-content p:hover{
     color:white;
 }
 .dropdown:hover .dropdown-content {
