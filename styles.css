@@ -179,6 +179,13 @@ html,body
 .navbar__link:hover{
     color: var(--white);
 }
+.navbar__link.dropdown{
+    display:none;
+    background: var(--black);
+}
+.navbar__link:hover.dropdown{
+    display:inline-block;
+}
 .open-menu, .close-menu{
     position: absolute;
     color: var(--blue);
