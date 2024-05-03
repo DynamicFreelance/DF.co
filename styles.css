@@ -305,15 +305,6 @@ html,body
         justify-content: center;
         text-align:center;
     }
-    .dropdown-content a{
-        padding:10px;
-        margin:40px;
-        display: flex;
-        felx-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align:center;
-    }
     .open-menu, .close-menu{display:block;}
     #check:checked ~ .navbar__menu {right: 0;}
 }
