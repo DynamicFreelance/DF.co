@@ -186,6 +186,8 @@ html,body
 .dropdown-content {
   display: none;
   position: absolute;
+  justify-content:center;
+  align-items:center;
   background-color: black;
   width: 20rem; 
   padding: 1rem 1rem;
@@ -193,7 +195,7 @@ html,body
   text-align:center;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: flex;
 }
 .open-menu, .close-menu{
     position: absolute;
