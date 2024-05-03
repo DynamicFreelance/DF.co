@@ -197,7 +197,7 @@ html,body
     color: var(--blue);
     text-decoration: none;
     cursor: none;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
 }
 .dropdown-content p:hover{
     color:white;
