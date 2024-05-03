@@ -194,6 +194,9 @@ html,body
     align-items:center;
     justify-content:center;
 }
+.dropdown-content a{
+    margin-bottom:1rem;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
