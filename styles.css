@@ -193,13 +193,14 @@ html,body
   z-index: 1;
   text-align:center;
 }
-.dropdown-content p{
+.dropdown-content a{
+    display: inline-block;
     color: var(--blue);
     text-decoration: none;
     cursor: none;
     margin: 1rem 1rem;
 }
-.dropdown-content p:hover{
+.dropdown-content a:hover{
     color:white;
 }
 .dropdown:hover .dropdown-content {
