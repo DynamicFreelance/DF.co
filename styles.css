@@ -175,7 +175,6 @@ html,body
     text-decoration: none;
     padding: 0rem 0.5rem;
     cursor: none;
-    text-align:center;
 }
 .navbar__link:hover{
     color: var(--white);
