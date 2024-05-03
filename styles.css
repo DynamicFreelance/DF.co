@@ -568,11 +568,11 @@ html,body
 .Marketing__card p{
     margin-bottom: 1rem;
 }
-.Marketing__card h3{
+.Marketing__Title h3{
     font-size: clamp(1rem, 5vw, 2rem);
     margin-bottom: 2rem;
 }
-.Marketing__card h4{
+.Marketing__Title h4{
     font-size: clamp(1rem, 5vw, 2rem);
     margin-bottom: 2rem;
     color: var(--blue);
