@@ -175,7 +175,7 @@ html,body
     text-decoration: none;
     padding: 0rem 0.5rem;
     cursor: none;
-    margin:2rem 0rem;
+    margin:0rem 2rem;
 }
 .navbar__link:hover{
     color: var(--white);
@@ -189,7 +189,7 @@ html,body
   position: absolute;
   background-color: black;
   min-width: 160px;
-  padding: 20px 16px;
+  padding: 20px 20px;
   z-index: 1;
     text-align:center;
     align-items:center;
