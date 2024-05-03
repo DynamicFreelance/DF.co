@@ -154,6 +154,20 @@ html,body
     color: white;
     padding: 1rem;
 }
+ul li ul.dropdown {
+    width:100%;
+    background: var(--black);
+    position:absolute;
+    z-index:2;
+    display:none;
+}
+ul li ul.dropdown li {
+    display:block;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+    
 @media screen and (max-width: 800px){
     .nav__bottom h1{
         font-size: 0.7rem;
