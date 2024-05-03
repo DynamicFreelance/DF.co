@@ -179,12 +179,20 @@ html,body
 .navbar__link:hover{
     color: var(--white);
 }
-navbar__link.dropdown{
-    display:none;
-    background: var(--black);
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
-.navbar__link.dropdown:hover{
-    display: inline-block;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 .open-menu, .close-menu{
     position: absolute;
