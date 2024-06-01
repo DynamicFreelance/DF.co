@@ -317,6 +317,7 @@ html,body
     overflow-x: auto;
     overflow-y: hidden;
     animation-timeline: scroll();
+    background-attachment: fixed;
 }
 .Sales{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
@@ -329,7 +330,6 @@ html,body
     align-items: center;
     color: var(--white);
     scroll-snap-align: start;
-    background-attachment: fixed;
 }
 .hero{
     background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
@@ -342,7 +342,6 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
-    background-attachment: fixed;
 }
 .Games{
     background: linear-gradient(to right, rgba(128,0,128, 0.6), rgba(0,0,0, 0.2)),
@@ -355,7 +354,6 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
-    background-attachment: fixed;
 }
 .hosting{
     background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
@@ -368,7 +366,6 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
-    background-attachment: fixed;
 }
 .Student{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
@@ -381,7 +378,6 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
-    background-attachment: fixed;
 }
 
 @media screen and (max-width: 768px){
@@ -396,6 +392,7 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
+    background-repeat: no-repeat;
 }
 .hero{
     background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
@@ -408,6 +405,7 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
+    background-repeat: no-repeat;
 }
 .Games{
     background: linear-gradient(to right, rgba(128,0,128, 0.6), rgba(0,0,0, 0.2)),
@@ -420,6 +418,7 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
+    background-repeat: no-repeat;
 }
 .hosting{
     background: linear-gradient(to right, rgba(7, 42, 108, 0.8), rgba(0,0,0, 0.2)),
@@ -432,6 +431,7 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
+    background-repeat: no-repeat;
 }
 .Student{
     background: linear-gradient(to right, rgba(255,76,0,0.5), rgba(0,0,0, 0.2)),
@@ -444,6 +444,7 @@ html,body
     justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
+    background-repeat: no-repeat;
 }
 }
 .hero__content{
