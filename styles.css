@@ -528,6 +528,22 @@ html,body
     font-size: 1.2rem;
     z-index: 2;
 }
+.seo__info{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding: 1rem;
+}
+.seo__info h1{
+    color: var(--black);
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    line-height: 1.4;
+    font-weight: normal;
+    padding:1rem 1rem;
+    background: rgba(0, 238, 255, 0.2);
+    border-radius: 2rem;
+}
 .services__heading{
     margin-bottom: 3rem;
     font-size: clamp(2rem, 6vw, 4rem);
