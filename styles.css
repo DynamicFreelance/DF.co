@@ -577,6 +577,9 @@ html,body
     .services__heading{
         margin-left:0rem;
     }
+    .seo__img{
+        width:90vw;
+    }
 }
 /* Marketin Teir Section */
 .Marketing{
